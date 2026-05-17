@@ -1,0 +1,1413 @@
+Loading GSM8K test set...
+Running on 200 randomly sampled questions (seed 42)
+
+[1/200] Q: The girls are trying to raise money for a carnival. Kim raises $320 more than Al...
+  Ground truth: 2280.0
+  Baseline: 2180.0 WRONG
+  PDA:      2180.0 WRONG
+  Workers:  [2180.0, 2180.0, 2180.0]
+  Running: Baseline 0/1 (0.0%) | PDA 0/1 (0.0%)
+
+[2/200] Q: Kalinda is working on a 360 piece puzzle with her mom. Kalinda can normally add ...
+  Ground truth: 1.0
+  Baseline: 1.0 OK
+  PDA:      1.0 OK
+  Workers:  [1.0, 1.0, 1.0]
+  Running: Baseline 1/2 (50.0%) | PDA 1/2 (50.0%)
+
+[3/200] Q: Tom's ship can travel at 10 miles per hour.  He is sailing from 1 to 4 PM.  He t...
+  Ground truth: 5.0
+  Baseline: 5.0 OK
+  PDA:      5.0 OK
+  Workers:  [5.0, 5.0, 5.0]
+  Running: Baseline 2/3 (66.7%) | PDA 2/3 (66.7%)
+
+[4/200] Q: James decides to buy birthday candles for his 2 sons.  One of them is 12 and the...
+  Ground truth: 12.0
+  Baseline: 12.0 OK
+  PDA:      12.0 OK
+  Workers:  [12.0, 12.0, 12.0]
+  Running: Baseline 3/4 (75.0%) | PDA 3/4 (75.0%)
+
+[5/200] Q: Mariah’s grandma was teaching her to knit. Mariah used 1/4 of a skein of yarn. H...
+  Ground truth: 273.0
+  Baseline: 273.0 OK
+  PDA:      273.0 OK
+  Workers:  [273.0, 273.0, 273.0]
+  Running: Baseline 4/5 (80.0%) | PDA 4/5 (80.0%)
+
+[6/200] Q: While playing with her friends in their school playground, Katelyn saw 50 fairie...
+  Ground truth: 45.0
+  Baseline: 45.0 OK
+  PDA:      45.0 OK
+  Workers:  [45.0, 45.0, 45.0]
+  Running: Baseline 5/6 (83.3%) | PDA 5/6 (83.3%)
+
+[7/200] Q: If Ann is 9 years old and her brother is twice her age, how old will her brother...
+  Ground truth: 21.0
+  Baseline: 21.0 OK
+  PDA:      21.0 OK
+  Workers:  [21.0, 21.0, 21.0]
+  Running: Baseline 6/7 (85.7%) | PDA 6/7 (85.7%)
+
+[8/200] Q: Twenty dozen cups cost $1200 less than the total cost of half a dozen plates sol...
+  Ground truth: 145.0
+  Baseline: 145.0 OK
+  PDA:      145.0 OK
+  Workers:  [145.0, 145.0, 145.0]
+  Running: Baseline 7/8 (87.5%) | PDA 7/8 (87.5%)
+
+[9/200] Q: Last year there were 50 students enrolled in a calligraphy class. This year, the...
+  Ground truth: 60.0
+  Baseline: 60.0 OK
+  PDA:      60.0 OK
+  Workers:  [60.0, 60.0, 60.0]
+  Running: Baseline 8/9 (88.9%) | PDA 8/9 (88.9%)
+
+[10/200] Q: Rani has ten more crabs than Monic, who has 4 fewer crabs than Bo. If Bo has 40 ...
+  Ground truth: 122.0
+  Baseline: 122.0 OK
+  PDA:      122.0 OK
+  Workers:  [122.0, 122.0, 122.0]
+  Running: Baseline 9/10 (90.0%) | PDA 9/10 (90.0%)
+
+[11/200] Q: Brian's basement was damp and musty, so he bought a dehumidifier to remove moist...
+  Ground truth: 29.0
+  Baseline: 29.0 OK
+  PDA:      29.0 OK
+  Workers:  [29.0, 29.0, 29.0]
+  Running: Baseline 10/11 (90.9%) | PDA 10/11 (90.9%)
+
+[12/200] Q: George, a grade six teacher, ordered 600 burritos for the sixth-grade class picn...
+  Ground truth: 80.0
+  Baseline: 80.0 OK
+  PDA:      80.0 OK
+  Workers:  [80.0, 80.0, 80.0]
+  Running: Baseline 11/12 (91.7%) | PDA 11/12 (91.7%)
+
+[13/200] Q: Jim spends 2 hours watching TV and then decides to go to bed and reads for half ...
+  Ground truth: 36.0
+  Baseline: 36.0 OK
+  PDA:      36.0 OK
+  Workers:  [36.0, 36.0, 36.0]
+  Running: Baseline 12/13 (92.3%) | PDA 12/13 (92.3%)
+
+[14/200] Q: Janet buys a brooch for her daughter.  She pays $500 for the material to make it...
+  Ground truth: 1430.0
+  Baseline: 1430.0 OK
+  PDA:      1430.0 OK
+  Workers:  [1430.0, 1430.0, 1430.0]
+  Running: Baseline 13/14 (92.9%) | PDA 13/14 (92.9%)
+
+[15/200] Q: Ducks need to eat 3.5 pounds of insects each week to survive. If there is a floc...
+  Ground truth: 5.0
+  Baseline: 5.0 OK
+  PDA:      5.0 OK
+  Workers:  [5.0, 5.0, 5.0]
+  Running: Baseline 14/15 (93.3%) | PDA 14/15 (93.3%)
+
+[16/200] Q: Joey has 214 points before his turn in Scrabble. He scores 26 points. Then Marcy...
+  Ground truth: 5.0
+  Baseline: 5.0 OK
+  PDA:      5.0 OK
+  Workers:  [5.0, 5.0, 5.0]
+  Running: Baseline 15/16 (93.8%) | PDA 15/16 (93.8%)
+
+[17/200] Q: Sarah went to buy books from the store and spent $300 on the books. If each book...
+  Ground truth: 5.0
+  Baseline: 5.0 OK
+  PDA:      5.0 OK
+  Workers:  [5.0, 5.0, 5.0]
+  Running: Baseline 16/17 (94.1%) | PDA 16/17 (94.1%)
+
+[18/200] Q: Ted starts with $200. He buys 3 books for 16 dollars each and 3 pencils for 6 do...
+  Ground truth: 66.0
+  Baseline: 66.0 OK
+  PDA:      66.0 OK
+  Workers:  [66.0, 66.0, 66.0]
+  Running: Baseline 17/18 (94.4%) | PDA 17/18 (94.4%)
+
+[19/200] Q: Eve had 20 pieces of pomelos. After giving her friend some pomelos, Eve is left ...
+  Ground truth: 15.0
+  Baseline: 15.0 OK
+  PDA:      15.0 OK
+  Workers:  [15.0, 15.0, 15.0]
+  Running: Baseline 18/19 (94.7%) | PDA 18/19 (94.7%)
+
+[20/200] Q: The Doubtfire sisters are driving home with 7 kittens adopted from the local ani...
+  Ground truth: 40.0
+  Baseline: 40.0 OK
+  PDA:      40.0 OK
+  Workers:  [40.0, 40.0, 40.0]
+  Running: Baseline 19/20 (95.0%) | PDA 19/20 (95.0%)
+
+[21/200] Q: Jen got 3 fish.  They each need $1 worth of food a day.  How much does she spend...
+  Ground truth: 93.0
+  Baseline: 93.0 OK
+  PDA:      93.0 OK
+  Workers:  [93.0, 93.0, 93.0]
+  Running: Baseline 20/21 (95.2%) | PDA 20/21 (95.2%)
+
+[22/200] Q: Elliott is trying to walk 10,000 steps a day. He finished half of his steps on h...
+  Ground truth: 2000.0
+  Baseline: 2000.0 OK
+  PDA:      2000.0 OK
+  Workers:  [2000.0, 2000.0, 2000.0]
+  Running: Baseline 21/22 (95.5%) | PDA 21/22 (95.5%)
+
+[23/200] Q: While working at the restaurant, each of the forty customers who came into the r...
+  Ground truth: 1520.0
+  Baseline: 1520.0 OK
+  PDA:      1520.0 OK
+  Workers:  [1520.0, 1520.0, 1520.0]
+  Running: Baseline 22/23 (95.7%) | PDA 22/23 (95.7%)
+
+[24/200] Q: On a certain day, the total cost of filling up 20 helium balloons was $900. Two ...
+  Ground truth: 11050.0
+  Baseline: 11050.0 OK
+  PDA:      11050.0 OK
+  Workers:  [170.0, 11050.0, 11050.0]
+  Running: Baseline 23/24 (95.8%) | PDA 23/24 (95.8%)
+
+[25/200] Q: To raise money for their class fund, each of the 30 students from one class sold...
+  Ground truth: 90.0
+  Baseline: 90.0 OK
+  PDA:      90.0 OK
+  Workers:  [90.0, 90.0, 90.0]
+  Running: Baseline 24/25 (96.0%) | PDA 24/25 (96.0%)
+
+[26/200] Q: John decides to get a loan by mortgaging his home.  His house is worth $250,000....
+  Ground truth: 40000.0
+  Baseline: 40000.0 OK
+  PDA:      40000.0 OK
+  Workers:  [40000.0, 40000.0, 40000.0]
+  Running: Baseline 25/26 (96.2%) | PDA 25/26 (96.2%)
+
+[27/200] Q: Liam and Mitchell own competing lemonade stands across the street from one anoth...
+  Ground truth: 21.0
+  Baseline: 21.0 OK
+  PDA:      21.0 OK
+  Workers:  [21.0, 21.0, 21.0]
+  Running: Baseline 26/27 (96.3%) | PDA 26/27 (96.3%)
+
+[28/200] Q: Melanie is a door-to-door saleswoman. She sold a third of her vacuum cleaners at...
+  Ground truth: 18.0
+  Baseline: 18.0 OK
+  PDA:      18.0 OK
+  Workers:  [18.0, 18.0, 18.0]
+  Running: Baseline 27/28 (96.4%) | PDA 27/28 (96.4%)
+
+[29/200] Q: Some people got on a bus at the terminal. At the first bus stop, 5 more people g...
+  Ground truth: 14.0
+  Baseline: 14.0 OK
+  PDA:      14.0 OK
+  Workers:  [14.0, 14.0, 14.0]
+  Running: Baseline 28/29 (96.6%) | PDA 28/29 (96.6%)
+
+[30/200] Q: A bumper car rink has 12 red cars. They have 2 fewer green cars than they have r...
+  Ground truth: 23.0
+  Baseline: 23.0 OK
+  PDA:      23.0 OK
+  Workers:  [23.0, 23.0, 23.0]
+  Running: Baseline 29/30 (96.7%) | PDA 29/30 (96.7%)
+
+[31/200] Q: Students in class 3B are collecting school points for behavior. If they get enou...
+  Ground truth: 145.0
+  Baseline: 145.0 OK
+  PDA:      145.0 OK
+  Workers:  [145.0, 145.0, 145.0]
+  Running: Baseline 30/31 (96.8%) | PDA 30/31 (96.8%)
+
+[32/200] Q: If a classroom has 3 times as many girls as they do boys, and 1/10 as many nonge...
+  Ground truth: 123.0
+  Baseline: 123.0 OK
+  PDA:      123.0 OK
+  Workers:  [123.0, 123.0, 123.0]
+  Running: Baseline 31/32 (96.9%) | PDA 31/32 (96.9%)
+
+[33/200] Q: The area of Billie's rectangular bedroom is 360 square feet. If the length of hi...
+  Ground truth: 98.0
+  Baseline: 98.0 OK
+  PDA:      98.0 OK
+  Workers:  [98.0, 98.0, 98.0]
+  Running: Baseline 32/33 (97.0%) | PDA 32/33 (97.0%)
+
+[34/200] Q: Manolo bought five lollipops and four candies that cost $3.20. If each lollipop ...
+  Ground truth: 7.0
+  Baseline: 12.0 WRONG
+  PDA:      7.0 OK
+  Workers:  [7.0, 7.0, 12.0]
+  Running: Baseline 32/34 (94.1%) | PDA 33/34 (97.1%)
+
+[35/200] Q: Three friends spent $20.25 on 3 tickets to the fair. They also spent $4.50 less ...
+  Ground truth: 34.0
+  Baseline: 34.0 OK
+  PDA:      34.0 OK
+  Workers:  [34.0, 34.0, 34.0]
+  Running: Baseline 33/35 (94.3%) | PDA 34/35 (97.1%)
+
+[36/200] Q: At the local Pick Your Own fruit orchard, you could pick your own peaches for $2...
+  Ground truth: 38.0
+  Baseline: 38.0 OK
+  PDA:      38.0 OK
+  Workers:  [38.0, 38.0, 38.0]
+  Running: Baseline 34/36 (94.4%) | PDA 35/36 (97.2%)
+
+[37/200] Q: Elaine initially had 20 Pokemon cards. After a month, she collected three times ...
+  Ground truth: 320.0
+  Baseline: 320.0 OK
+  PDA:      320.0 OK
+  Workers:  [320.0, 320.0, 320.0]
+  Running: Baseline 35/37 (94.6%) | PDA 36/37 (97.3%)
+
+[38/200] Q: In a student council election, candidate A got 20% of the votes while candidate ...
+  Ground truth: 50.0
+  Baseline: 50.0 OK
+  PDA:      50.0 OK
+  Workers:  [50.0, 50.0, 50.0]
+  Running: Baseline 36/38 (94.7%) | PDA 37/38 (97.4%)
+
+[39/200] Q: Gerald and Julia divided $100 in the ratio 3:2. If Gerald spent $10 on a book, h...
+  Ground truth: 50.0
+  Baseline: 50.0 OK
+  PDA:      50.0 OK
+  Workers:  [50.0, 50.0, 50.0]
+  Running: Baseline 37/39 (94.9%) | PDA 38/39 (97.4%)
+
+[40/200] Q: Madeline ate 6 grapes. Her brother wanted to make grape juice and used up 5 time...
+  Ground truth: 84.0
+  Baseline: 84.0 OK
+  PDA:      84.0 OK
+  Workers:  [84.0, 84.0, 84.0]
+  Running: Baseline 38/40 (95.0%) | PDA 39/40 (97.5%)
+
+[41/200] Q: Elvis has a monthly saving target of $1125. In April, he wants to save twice as ...
+  Ground truth: 50.0
+  Baseline: 50.0 OK
+  PDA:      50.0 OK
+  Workers:  [50.0, 50.0, 50.0]
+  Running: Baseline 39/41 (95.1%) | PDA 40/41 (97.6%)
+
+[42/200] Q: Marilyn's first record sold 10 times as many copies as Harald's. If they sold 88...
+  Ground truth: 8000.0
+  Baseline: 8000.0 OK
+  PDA:      8000.0 OK
+  Workers:  [8000.0, 8000.0, 8000.0]
+  Running: Baseline 40/42 (95.2%) | PDA 41/42 (97.6%)
+
+[43/200] Q: For the children's day celebration, children are to perform mass drills in the p...
+  Ground truth: 280.0
+  Baseline: 280.0 OK
+  PDA:      280.0 OK
+  Workers:  [280.0, 280.0, 280.0]
+  Running: Baseline 41/43 (95.3%) | PDA 42/43 (97.7%)
+
+[44/200] Q: Jeff is 10 years older than his younger sister, Martha. Martha, on the other han...
+  Ground truth: 30.0
+  Baseline: 30.0 OK
+  PDA:      30.0 OK
+  Workers:  [30.0, 30.0, 30.0]
+  Running: Baseline 42/44 (95.5%) | PDA 43/44 (97.7%)
+
+[45/200] Q: Ten stalls have 20 cows each. Mr. Sylas buys 40 cows and divides them equally, p...
+  Ground truth: 192.0
+  Baseline: 176.0 WRONG
+  PDA:      192.0 OK
+  Workers:  [192.0, 1.0, 192.0]
+  Running: Baseline 42/45 (93.3%) | PDA 44/45 (97.8%)
+
+[46/200] Q: Henry needs to assemble some toys, specifically 57 cars and 73 motorcycles. Henr...
+  Ground truth: 276.0
+  Baseline: 276.0 OK
+  PDA:      276.0 OK
+  Workers:  [276.0, 276.0, 276.0]
+  Running: Baseline 43/46 (93.5%) | PDA 45/46 (97.8%)
+
+[47/200] Q: Anakin and Locsin went to the beach today. Anakin caught 10 starfish, 6 sea hors...
+  Ground truth: 32.0
+  Baseline: 32.0 OK
+  PDA:      32.0 OK
+  Workers:  [32.0, 32.0, 32.0]
+  Running: Baseline 44/47 (93.6%) | PDA 46/47 (97.9%)
+
+[48/200] Q: Nik has 200 crayons. He wants to separate them into groups of 8 and put them int...
+  Ground truth: 25.0
+  Baseline: 25.0 OK
+  PDA:      25.0 OK
+  Workers:  [25.0, 25.0, 25.0]
+  Running: Baseline 45/48 (93.8%) | PDA 47/48 (97.9%)
+
+[49/200] Q: Jamaal is at the gym. He has been using an 8-pound weight. He increases the weig...
+  Ground truth: 10.0
+  Baseline: 10.0 OK
+  PDA:      10.0 OK
+  Workers:  [10.0, 10.0, 10.0]
+  Running: Baseline 46/49 (93.9%) | PDA 48/49 (98.0%)
+
+[50/200] Q: In a family, there are 2 brothers and 3 sisters. All sisters are the same age, w...
+  Ground truth: 84.0
+  Baseline: 84.0 OK
+  PDA:      84.0 OK
+  Workers:  [84.0, 84.0, 84.0]
+  Running: Baseline 47/50 (94.0%) | PDA 49/50 (98.0%)
+
+[51/200] Q: The Kennel house keeps 3 German Shepherds and 2 Bulldogs. If a German Shepherd c...
+  Ground truth: 147.0
+  Baseline: 147.0 OK
+  PDA:      147.0 OK
+  Workers:  [147.0, 147.0, 147.0]
+  Running: Baseline 48/51 (94.1%) | PDA 50/51 (98.0%)
+
+[52/200] Q: A class of 50 students has various hobbies. 10 like to bake, 5 like to play bask...
+  Ground truth: 25.0
+  Baseline: 25.0 OK
+  PDA:      25.0 OK
+  Workers:  [25.0, 25.0, 25.0]
+  Running: Baseline 49/52 (94.2%) | PDA 51/52 (98.1%)
+
+[53/200] Q: Bob spends $27000 distributed between 3 schools to buy books.  He can buy 100 bo...
+  Ground truth: 1800.0
+  Baseline: 1800.0 OK
+  PDA:      1800.0 OK
+  Workers:  [1800.0, 1800.0, 1800.0]
+  Running: Baseline 50/53 (94.3%) | PDA 52/53 (98.1%)
+
+[54/200] Q: Carol spends 4 hours writing a song, half that much time recording it, and 90 mi...
+  Ground truth: 20.0
+  Baseline: 20.0 OK
+  PDA:      20.0 OK
+  Workers:  [20.0, 20.0, 20.0]
+  Running: Baseline 51/54 (94.4%) | PDA 53/54 (98.1%)
+
+[55/200] Q: Jordan plays video games for 2 hours every day. He also has a part-time job wher...
+  Ground truth: 140.0
+  Baseline: 140.0 OK
+  PDA:      140.0 OK
+  Workers:  [140.0, 140.0, 140.0]
+  Running: Baseline 52/55 (94.5%) | PDA 54/55 (98.2%)
+
+[56/200] Q: Lee used to be able to run the 400-meter hurdles two seconds faster than Gerald ...
+  Ground truth: 36.0
+  Baseline: 11.0 WRONG
+  PDA:      36.36 WRONG
+  Workers:  [36.36, 36.36, 36.36]
+  Running: Baseline 52/56 (92.9%) | PDA 54/56 (96.4%)
+
+[57/200] Q: Becky bought 20 apples for 45 cents each and received a $1 discount. Kelly bough...
+  Ground truth: 1.0
+  Baseline: 1.0 OK
+  PDA:      1.0 OK
+  Workers:  [1.0, 1.0, 1.0]
+  Running: Baseline 53/57 (93.0%) | PDA 55/57 (96.5%)
+
+[58/200] Q: Marilyn wants to buy a pair of boots online. On Amazon.com, the boots cost $16 a...
+  Ground truth: 1.0
+  Baseline: 1.0 OK
+  PDA:      1.0 OK
+  Workers:  [1.0, 1.0, 1.0]
+  Running: Baseline 54/58 (93.1%) | PDA 56/58 (96.6%)
+
+[59/200] Q: In a room, there are various toys: 5 red cars, 3 action figures, and a doll. The...
+  Ground truth: 50.0
+  Baseline: 50.0 OK
+  PDA:      50.0 OK
+  Workers:  [50.0, 50.0, 50.0]
+  Running: Baseline 55/59 (93.2%) | PDA 57/59 (96.6%)
+
+[60/200] Q: Micheal loves riding a bike. He rode it at least 5 times a week and makes 25 kil...
+  Ground truth: 860.0
+  Baseline: 860.0 OK
+  PDA:      860.0 OK
+  Workers:  [860.0, 1.0, 860.0]
+  Running: Baseline 56/60 (93.3%) | PDA 58/60 (96.7%)
+
+[61/200] Q: Rita hand-picks Junebugs off of her plants every summer.  On Monday, she removed...
+  Ground truth: 60.0
+  Baseline: 60.0 OK
+  PDA:      60.0 OK
+  Workers:  [60.0, 60.0, 60.0]
+  Running: Baseline 57/61 (93.4%) | PDA 59/61 (96.7%)
+
+[62/200] Q: Randy has 9 oatmeal cookies, 4 chocolate chip cookies, and 5 sugar cookies. He a...
+  Ground truth: 23.0
+  Baseline: 23.0 OK
+  PDA:      23.0 OK
+  Workers:  [23.0, 23.0, 23.0]
+  Running: Baseline 58/62 (93.5%) | PDA 60/62 (96.8%)
+
+[63/200] Q: A tomato vendor decides to switch who he buys his tomatoes for.  He sells 500 to...
+  Ground truth: 350.0
+  Baseline: 350.0 OK
+  PDA:      350.0 OK
+  Workers:  [350.0, 350.0, 350.0]
+  Running: Baseline 59/63 (93.7%) | PDA 61/63 (96.8%)
+
+[64/200] Q: Robert wants to buy a bookshelf and a sofa and has received two offers. Furnitur...
+  Ground truth: 100.0
+  Baseline: 100.0 OK
+  PDA:      100.0 OK
+  Workers:  [100.0, 100.0, 100.0]
+  Running: Baseline 60/64 (93.8%) | PDA 62/64 (96.9%)
+
+[65/200] Q: A bag has a 5% discount. If it is marked $140, how much will you pay after the d...
+  Ground truth: 133.0
+  Baseline: 133.0 OK
+  PDA:      133.0 OK
+  Workers:  [133.0, 133.0, 133.0]
+  Running: Baseline 61/65 (93.8%) | PDA 63/65 (96.9%)
+
+[66/200] Q: Hannah has a mental breakdown while studying for finals and starts smashing wind...
+  Ground truth: 112.0
+  Baseline: 112.0 OK
+  PDA:      112.0 OK
+  Workers:  [112.0, 112.0, 112.0]
+  Running: Baseline 62/66 (93.9%) | PDA 64/66 (97.0%)
+
+[67/200] Q: Indras has 6 letters in her name. Her sister's name has 4 more letters than half...
+  Ground truth: 13.0
+  Baseline: 13.0 OK
+  PDA:      13.0 OK
+  Workers:  [13.0, 13.0, 13.0]
+  Running: Baseline 63/67 (94.0%) | PDA 65/67 (97.0%)
+
+[68/200] Q: Elise is learning to write and decides to keep re-writing the alphabet until she...
+  Ground truth: 130.0
+  Baseline: 130.0 OK
+  PDA:      130.0 OK
+  Workers:  [130.0, 130.0, 130.0]
+  Running: Baseline 64/68 (94.1%) | PDA 66/68 (97.1%)
+
+[69/200] Q: Johnny is picking up the toys on the floor of his room.  He'd dumped a lego boxe...
+  Ground truth: 2125.0
+  Baseline: 2125.0 OK
+  PDA:      2125.0 OK
+  Workers:  [2125.0, 1.0, 2125.0]
+  Running: Baseline 65/69 (94.2%) | PDA 67/69 (97.1%)
+
+[70/200] Q: Brendan has a bag of marbles with 10 inside. He tripped over a pebble while carr...
+  Ground truth: 7.0
+  Baseline: 7.0 OK
+  PDA:      7.0 OK
+  Workers:  [7.0, 7.0, 7.0]
+  Running: Baseline 66/70 (94.3%) | PDA 68/70 (97.1%)
+
+[71/200] Q: Josh runs a car shop and services 3 cars a day.  He is open every day of the wee...
+  Ground truth: 120.0
+  Baseline: 120.0 OK
+  PDA:      120.0 OK
+  Workers:  [120.0, 120.0, 120.0]
+  Running: Baseline 67/71 (94.4%) | PDA 69/71 (97.2%)
+
+[72/200] Q: Peyton scheduled after-work activities of a one hour yoga class on Monday, a coo...
+  Ground truth: 8.0
+  Baseline: 8.0 OK
+  PDA:      8.0 OK
+  Workers:  [8.0, 8.0, 8.0]
+  Running: Baseline 68/72 (94.4%) | PDA 70/72 (97.2%)
+
+[73/200] Q: Tony is painting a room with four walls. The north and south walls are 10 x 8 fe...
+  Ground truth: 144.0
+  Baseline: 144.0 OK
+  PDA:      144.0 OK
+  Workers:  [144.0, 144.0, 144.0]
+  Running: Baseline 69/73 (94.5%) | PDA 71/73 (97.3%)
+
+[74/200] Q: Nick, Richard, Jason and DJ each have paintball guns. DJ has 8 guns, Nick has 10...
+  Ground truth: 6.0
+  Baseline: 6.0 OK
+  PDA:      6.0 OK
+  Workers:  [6.0, 6.0, 6.0]
+  Running: Baseline 70/74 (94.6%) | PDA 72/74 (97.3%)
+
+[75/200] Q: A bakery has 40 less than seven times as many loaves of bread as Sam had last Fr...
+  Ground truth: 450.0
+  Baseline: 450.0 OK
+  PDA:      450.0 OK
+  Workers:  [450.0, 450.0, 450.0]
+  Running: Baseline 71/75 (94.7%) | PDA 73/75 (97.3%)
+
+[76/200] Q: Mike decides he wants to replace his movie collection with digital versions.  He...
+  Ground truth: 4400.0
+  Baseline: 4400.0 OK
+  API error: Expecting value: line 207 column 1 (char 1133)
+  PDA:      4400.0 OK
+  Workers:  [4400.0, None, 4400.0]
+  Running: Baseline 72/76 (94.7%) | PDA 74/76 (97.4%)
+
+[77/200] Q: A marketing company pays its employees on a commission-based salary system. If y...
+  Ground truth: 450.0
+  Baseline: 450.0 OK
+  API error: Expecting value: line 197 column 1 (char 1078)
+  API error: Expecting value: line 191 column 1 (char 1045)
+  PDA:      450.0 OK
+  Workers:  [450.0, None, None]
+  Running: Baseline 73/77 (94.8%) | PDA 75/77 (97.4%)
+
+[78/200] Q: Aaron and Vanessa were relay race partners on a running team. Aaron was able to ...
+  Ground truth: 64.0
+  Baseline: 64.0 OK
+  PDA:      64.0 OK
+  Workers:  [64.0, 64.0, 64.0]
+  Running: Baseline 74/78 (94.9%) | PDA 76/78 (97.4%)
+
+[79/200] Q: Gomer ate 5 less than 23 scoops of mashed potatoes.  If it takes 3 less than 6 p...
+  Ground truth: 27.0
+  Baseline: 27.0 OK
+  PDA:      27.0 OK
+  Workers:  [27.0, 27.0, 27.0]
+  Running: Baseline 75/79 (94.9%) | PDA 77/79 (97.5%)
+
+[80/200] Q: Beatrice bought ten packets of crayons for her Art class. Six of the packets had...
+  Ground truth: 112.0
+  Baseline: 112.0 OK
+  PDA:      112.0 OK
+  Workers:  [112.0, 112.0, 112.0]
+  Running: Baseline 76/80 (95.0%) | PDA 78/80 (97.5%)
+
+[81/200] Q: John decides to take a cooking class.  The class meets 4 times a week for 2 hour...
+  Ground truth: 32.0
+  Baseline: 32.0 OK
+  PDA:      32.0 OK
+  Workers:  [32.0, 32.0, 32.0]
+  Running: Baseline 77/81 (95.1%) | PDA 79/81 (97.5%)
+
+[82/200] Q: Jamal's phone can hold 6 times more photographs than can Brittany's phone.  The ...
+  Ground truth: 6.0
+  Baseline: 6.0 OK
+  PDA:      6.0 OK
+  Workers:  [6.0, 6.0, 6.0]
+  Running: Baseline 78/82 (95.1%) | PDA 80/82 (97.6%)
+
+[83/200] Q: Mary has 6 jars of sprinkles in her pantry. Each jar of sprinkles can decorate 8...
+  Ground truth: 4.0
+  Baseline: 4.0 OK
+  PDA:      4.0 OK
+  Workers:  [4.0, 4.0, 4.0]
+  Running: Baseline 79/83 (95.2%) | PDA 81/83 (97.6%)
+
+[84/200] Q: Alisa biked 12 miles per hour for 4.5 hours. Stanley biked at 10 miles per hour ...
+  Ground truth: 79.0
+  Baseline: 79.0 OK
+  PDA:      79.0 OK
+  Workers:  [79.0, 79.0, 79.0]
+  Running: Baseline 80/84 (95.2%) | PDA 82/84 (97.6%)
+
+[85/200] Q: Hunter counted 50 cars packed in their school parking lot when entering class on...
+  Ground truth: 35.0
+  Baseline: 35.0 OK
+  PDA:      35.0 OK
+  Workers:  [35.0, 70.0, 35.0]
+  Running: Baseline 81/85 (95.3%) | PDA 83/85 (97.6%)
+
+[86/200] Q: Mark was unwell for 3 months, during which he lost 10 pounds per month. If his f...
+  Ground truth: 100.0
+  Baseline: 100.0 OK
+  PDA:      100.0 OK
+  Workers:  [100.0, 100.0, 100.0]
+  Running: Baseline 82/86 (95.3%) | PDA 84/86 (97.7%)
+
+[87/200] Q: Brian's friend Bobby has 5 fewer than 3 times as many video games as Brian does....
+  Ground truth: 40.0
+  Baseline: 40.0 OK
+  PDA:      40.0 OK
+  Workers:  [40.0, 40.0, 40.0]
+  Running: Baseline 83/87 (95.4%) | PDA 85/87 (97.7%)
+
+[88/200] Q: Prince Thaddeus slew 100 dragons with his mighty sword, while Prince Arthur, usi...
+  Ground truth: 30.0
+  Baseline: 30.0 OK
+  PDA:      30.0 OK
+  Workers:  [30.0, 30.0, 30.0]
+  Running: Baseline 84/88 (95.5%) | PDA 86/88 (97.7%)
+
+[89/200] Q: Abraham owns 80 square meters of unused land. He sold half of the land for $50, ...
+  Ground truth: 170.0
+  Baseline: 140.0 WRONG
+  PDA:      140.0 WRONG
+  Workers:  [140.0, 140.0, 140.0]
+  Running: Baseline 84/89 (94.4%) | PDA 86/89 (96.6%)
+
+[90/200] Q: Steve is 60 years old. His wife is 4 years older than him. Their son is currentl...
+  Ground truth: 29.0
+  Baseline: 29.0 OK
+  PDA:      29.0 OK
+  Workers:  [29.0, 29.0, 29.0]
+  Running: Baseline 85/90 (94.4%) | PDA 87/90 (96.7%)
+
+[91/200] Q: Ray had 25 lollipops. He kept 5 lollipops and shared the remaining equally with ...
+  Ground truth: 5.0
+  Baseline: 5.0 OK
+  PDA:      5.0 OK
+  Workers:  [5.0, 5.0, 5.0]
+  Running: Baseline 86/91 (94.5%) | PDA 88/91 (96.7%)
+
+[92/200] Q: Teresa sells large stuffed animals for three times the price of small stuffed an...
+  Ground truth: 12.0
+  Baseline: 12.0 OK
+  PDA:      12.0 OK
+  Workers:  [12.0, 12.0, 12.0]
+  Running: Baseline 87/92 (94.6%) | PDA 89/92 (96.7%)
+
+[93/200] Q: In one year, the number of students on campus doubles at the end of every month....
+  Ground truth: 310.0
+  Baseline: 310.0 OK
+  PDA:      310.0 OK
+  Workers:  [310.0, 310.0, 310.0]
+  Running: Baseline 88/93 (94.6%) | PDA 90/93 (96.8%)
+
+[94/200] Q: Mark's car breaks down and he needs to get a new radiator.  The cost for a new r...
+  Ground truth: 230.0
+  Baseline: 230.0 OK
+  PDA:      230.0 OK
+  Workers:  [230.0, 230.0, 230.0]
+  Running: Baseline 89/94 (94.7%) | PDA 91/94 (96.8%)
+
+[95/200] Q: Craig and his brother take turns spelling out the longest letter words they know...
+  Ground truth: 650.0
+  Baseline: 650.0 OK
+  PDA:      650.0 OK
+  Workers:  [650.0, 650.0, 650.0]
+  Running: Baseline 90/95 (94.7%) | PDA 92/95 (96.8%)
+
+[96/200] Q: Susan earns $5 every 10 minutes for an online task she does. If she works betwee...
+  Ground truth: 75.0
+  Baseline: 75.0 OK
+  PDA:      75.0 OK
+  Workers:  [75.0, 75.0, 75.0]
+  Running: Baseline 91/96 (94.8%) | PDA 93/96 (96.9%)
+
+[97/200] Q: Verna loves to eat fruit. She bought three apples at $1.50 each, five oranges at...
+  Ground truth: 7.0
+  Baseline: 7.0 OK
+  PDA:      7.0 OK
+  Workers:  [7.0, 7.0, 7.0]
+  Running: Baseline 92/97 (94.8%) | PDA 94/97 (96.9%)
+
+[98/200] Q: Frederick is making popsicles to sell and to save money he is making his own pop...
+  Ground truth: 1600.0
+  Baseline: 1600.0 OK
+  PDA:      1600.0 OK
+  Workers:  [1600.0, 1600.0, 1600.0]
+  Running: Baseline 93/98 (94.9%) | PDA 95/98 (96.9%)
+
+[99/200] Q: A jellyfish tank has numerous jellyfish in it. A fifth of the jellyfish are larg...
+  Ground truth: 90.0
+  Baseline: 90.0 OK
+  PDA:      90.0 OK
+  Workers:  [90.0, 90.0, 90.0]
+  Running: Baseline 94/99 (94.9%) | PDA 96/99 (97.0%)
+
+[100/200] Q: Emma can make and upload 72 vlogs per month. But she was only able to make 18 vl...
+  Ground truth: 18.0
+  Baseline: 18.0 OK
+  PDA:      18.0 OK
+  Workers:  [18.0, 18.0, 18.0]
+  Running: Baseline 95/100 (95.0%) | PDA 97/100 (97.0%)
+
+[101/200] Q: John buys 10 bottles of scotch for a total cost of $600.  He also buys twice as ...
+  Ground truth: 2400.0
+  Baseline: 2400.0 OK
+  PDA:      2400.0 OK
+  Workers:  [2400.0, 2400.0, 2400.0]
+  Running: Baseline 96/101 (95.0%) | PDA 98/101 (97.0%)
+
+[102/200] Q: To make a profit of $2000, Isaias has to sell the chickens he planned to take to...
+  Ground truth: 7000.0
+  Baseline: 7000.0 OK
+  PDA:      7000.0 OK
+  Workers:  [7000.0, 7000.0, 7000.0]
+  Running: Baseline 97/102 (95.1%) | PDA 99/102 (97.1%)
+
+[103/200] Q: Mr. Maxim works at The Best Cookeries Around restaurant. On a particular day, 50...
+  Ground truth: 320.0
+  Baseline: 320.0 OK
+  PDA:      320.0 OK
+  Workers:  [320.0, 320.0, 320.0]
+  Running: Baseline 98/103 (95.1%) | PDA 100/103 (97.1%)
+
+[104/200] Q: Paul needs 63 cupcakes for a birthday party happening on Saturday. He already ha...
+  Ground truth: 15.0
+  Baseline: 15.0 OK
+  PDA:      15.0 OK
+  Workers:  [15.0, 15.0, 15.0]
+  Running: Baseline 99/104 (95.2%) | PDA 101/104 (97.1%)
+
+[105/200] Q: Jeremy saw 12 birds in their backyard and threw a stone at them, scaring away 1/...
+  Ground truth: 28.0
+  Baseline: 28.0 OK
+  PDA:      28.0 OK
+  Workers:  [28.0, 28.0, 28.0]
+  Running: Baseline 100/105 (95.2%) | PDA 102/105 (97.1%)
+
+[106/200] Q: Katerina makes designer jewelry.  Her specialty is topaz necklaces.  She uses 8 ...
+  Ground truth: 68.0
+  Baseline: 68.0 OK
+  PDA:      68.0 OK
+  Workers:  [68.0, 68.0, 68.0]
+  Running: Baseline 101/106 (95.3%) | PDA 103/106 (97.2%)
+
+[107/200] Q: There are 26 countries in South America and, in each country, there are 5 cities...
+  Ground truth: 130000.0
+  Baseline: 130000.0 OK
+  PDA:      130000.0 OK
+  Workers:  [130000.0, 130000.0, 130000.0]
+  Running: Baseline 102/107 (95.3%) | PDA 104/107 (97.2%)
+
+[108/200] Q: Bethany can run 10 laps on the track in one hour.  Trey can run 4 more laps than...
+  Ground truth: 5.0
+  Baseline: 5.0 OK
+  PDA:      5.0 OK
+  Workers:  [5.0, 5.0, 5.0]
+  Running: Baseline 103/108 (95.4%) | PDA 105/108 (97.2%)
+
+[109/200] Q: Russell works at a pet store and is distributing straw among the rodents. The ra...
+  Ground truth: 5.0
+  Baseline: 5.0 OK
+  PDA:      5.0 OK
+  Workers:  [5.0, 5.0, 5.0]
+  Running: Baseline 104/109 (95.4%) | PDA 106/109 (97.2%)
+
+[110/200] Q: Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry sl...
+  Ground truth: 3.0
+  Baseline: 3.0 OK
+  PDA:      3.0 OK
+  Workers:  [3.0, 3.0, 3.0]
+  Running: Baseline 105/110 (95.5%) | PDA 107/110 (97.3%)
+
+[111/200] Q: Carlos and Benji are at the beach. Carlos rents a canoe for $30 an hour and Benj...
+  Ground truth: 180.0
+  Baseline: 180.0 OK
+  PDA:      180.0 OK
+  Workers:  [180.0, 180.0, 180.0]
+  Running: Baseline 106/111 (95.5%) | PDA 108/111 (97.3%)
+
+[112/200] Q: Six years ago, when Noah was half as old as Cera, the population of Chile was ha...
+  Ground truth: 120000.0
+  Baseline: 120000.0 OK
+  PDA:      120000.0 OK
+  Workers:  [120000.0, 120000.0, 120000.0]
+  Running: Baseline 107/112 (95.5%) | PDA 109/112 (97.3%)
+
+[113/200] Q: The recent floods in Mamou’s country have left many families without food or she...
+  Ground truth: 1218.0
+  Baseline: 1218.0 OK
+  PDA:      1218.0 OK
+  Workers:  [1218.0, 1218.0, 1218.0]
+  Running: Baseline 108/113 (95.6%) | PDA 110/113 (97.3%)
+
+[114/200] Q: Oscar has 24 lollipops and eats 2 on his way to school.  He passes 14 out to his...
+  Ground truth: 31.0
+  Baseline: 31.0 OK
+  PDA:      31.0 OK
+  Workers:  [31.0, 31.0, 31.0]
+  Running: Baseline 109/114 (95.6%) | PDA 111/114 (97.4%)
+
+[115/200] Q: Aiden is making his famous steakhouse-seasoned meatballs for a neighborhood cook...
+  Ground truth: 10.0
+  Baseline: 10.0 OK
+  PDA:      10.0 OK
+  Workers:  [10.0, 10.0, 10.0]
+  Running: Baseline 110/115 (95.7%) | PDA 112/115 (97.4%)
+
+[116/200] Q: Nissa hires 60 seasonal workers to play elves in her department store's Santa vi...
+  Ground truth: 30.0
+  Baseline: 30.0 OK
+  PDA:      30.0 OK
+  Workers:  [30.0, 30.0, 30.0]
+  Running: Baseline 111/116 (95.7%) | PDA 113/116 (97.4%)
+
+[117/200] Q: John is raising money for a school trip. He has applied for help from the school...
+  Ground truth: 100.0
+  Baseline: 100.0 OK
+  PDA:      100.0 OK
+  Workers:  [100.0, 100.0, 100.0]
+  Running: Baseline 112/117 (95.7%) | PDA 114/117 (97.4%)
+
+[118/200] Q: Four friends ordered four pizzas for a total of 64 dollars. If two of the pizzas...
+  Ground truth: 17.0
+  Baseline: 17.0 OK
+  PDA:      17.0 OK
+  Workers:  [17.0, 17.0, 17.0]
+  Running: Baseline 113/118 (95.8%) | PDA 115/118 (97.5%)
+
+[119/200] Q: Ian has a board that is 40 feet long. He decides to make a cut so he can have tw...
+  Ground truth: 32.0
+  Baseline: 32.0 OK
+  PDA:      32.0 OK
+  Workers:  [32.0, 32.0, 32.0]
+  Running: Baseline 114/119 (95.8%) | PDA 116/119 (97.5%)
+
+[120/200] Q: Courtney attended a concert and reported that the audience was 48 in number. How...
+  Ground truth: 40.0
+  Baseline: 40.0 OK
+  PDA:      40.0 OK
+  Workers:  [40.0, 40.0, 40.0]
+  Running: Baseline 115/120 (95.8%) | PDA 117/120 (97.5%)
+
+[121/200] Q: The bananas at the supermarket cost $0.80 each, or a bunch for $3.00.  Jenny buy...
+  Ground truth: 2.0
+  Baseline: 2.0 OK
+  PDA:      2.0 OK
+  Workers:  [2.0, 2.0, 2.0]
+  Running: Baseline 116/121 (95.9%) | PDA 118/121 (97.5%)
+
+[122/200] Q: A house and a lot cost $120,000. If the house cost three times as much as the lo...
+  Ground truth: 90000.0
+  Baseline: 90000.0 OK
+  PDA:      90000.0 OK
+  Workers:  [90000.0, 1.0, 90000.0]
+  Running: Baseline 117/122 (95.9%) | PDA 119/122 (97.5%)
+
+[123/200] Q: Grandma walks 3 miles every day on her favorite walking trail, which includes 2 ...
+  Ground truth: 50.0
+  Baseline: 50.0 OK
+  PDA:      50.0 OK
+  Workers:  [50.0, 50.0, 50.0]
+  Running: Baseline 118/123 (95.9%) | PDA 120/123 (97.6%)
+
+[124/200] Q: A candle melts by 2 centimeters every hour that it burns. How many centimeters s...
+  Ground truth: 8.0
+  Baseline: 8.0 OK
+  PDA:      8.0 OK
+  Workers:  [8.0, 8.0, 8.0]
+  Running: Baseline 119/124 (96.0%) | PDA 121/124 (97.6%)
+
+[125/200] Q: Steve decides to start eating more tomatoes and decides to grows his own cherry ...
+  Ground truth: 21.0
+  Baseline: 21.0 OK
+  PDA:      21.0 OK
+  Workers:  [21.0, 21.0, 21.0]
+  Running: Baseline 120/125 (96.0%) | PDA 122/125 (97.6%)
+
+[126/200] Q: The biggest waterslide at Five Flags is 300 feet long, and people slide down at ...
+  Ground truth: 2.0
+  Baseline: 2.0 OK
+  PDA:      2.0 OK
+  Workers:  [2.0, 2.0, 2.0]
+  Running: Baseline 121/126 (96.0%) | PDA 123/126 (97.6%)
+
+[127/200] Q: Tom's restaurant gets 6 reservations a night.  They normally order 2 meals that ...
+  Ground truth: 180.0
+  Baseline: 180.0 OK
+  PDA:      180.0 OK
+  Workers:  [180.0, 180.0, 180.0]
+  Running: Baseline 122/127 (96.1%) | PDA 124/127 (97.6%)
+
+[128/200] Q: Steve loves playing video games.  His parents get him a console along with 5 gam...
+  Ground truth: 104.0
+  Baseline: 104.0 OK
+  PDA:      104.0 OK
+  Workers:  [104.0, 104.0, 104.0]
+  Running: Baseline 123/128 (96.1%) | PDA 125/128 (97.7%)
+
+[129/200] Q: There are 100 plants in Mrs. Smith's garden. One-fourth of her plants are indoor...
+  Ground truth: 25.0
+  Baseline: 25.0 OK
+  PDA:      25.0 OK
+  Workers:  [25.0, 25.0, 25.0]
+  Running: Baseline 124/129 (96.1%) | PDA 126/129 (97.7%)
+
+[130/200] Q: Shannon makes herself iced coffee by brewing hot coffee and adding ice cubes. Ea...
+  Ground truth: 75.0
+  Baseline: 75.0 OK
+  PDA:      75.0 OK
+  Workers:  [75.0, 75.0, 75.0]
+  Running: Baseline 125/130 (96.2%) | PDA 127/130 (97.7%)
+
+[131/200] Q: A bus travels 60 miles per hour for 5 hours. A car travels 30 miles per hour for...
+  Ground truth: 60.0
+  Baseline: 60.0 OK
+  PDA:      60.0 OK
+  Workers:  [60.0, 60.0, 60.0]
+  Running: Baseline 126/131 (96.2%) | PDA 128/131 (97.7%)
+
+[132/200] Q: Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many s...
+  Ground truth: 260.0
+  Baseline: 260.0 OK
+  PDA:      260.0 OK
+  Workers:  [260.0, 1.0, 260.0]
+  Running: Baseline 127/132 (96.2%) | PDA 129/132 (97.7%)
+
+[133/200] Q: My wife wants to evenly split the check but wants me to pay an additional 20% ti...
+  Ground truth: 35.0
+  Baseline: 35.0 OK
+  PDA:      35.0 OK
+  Workers:  [35.0, 35.0, 35.0]
+  Running: Baseline 128/133 (96.2%) | PDA 130/133 (97.7%)
+
+[134/200] Q: The Easter egg hunt team hid 100 eggs. The Smith twins each found 30 eggs. All t...
+  Ground truth: 30.0
+  Baseline: 30.0 OK
+  PDA:      30.0 OK
+  Workers:  [30.0, 30.0, 30.0]
+  Running: Baseline 129/134 (96.3%) | PDA 131/134 (97.8%)
+
+[135/200] Q: There are 6 girls in the park. If there are twice the number of boys in the park...
+  Ground truth: 18.0
+  Baseline: 18.0 OK
+  PDA:      18.0 OK
+  Workers:  [18.0, 18.0, 18.0]
+  Running: Baseline 130/135 (96.3%) | PDA 132/135 (97.8%)
+
+[136/200] Q: Jim is making a comforter for his king-sized bed. He needs two pieces of fabric ...
+  Ground truth: 160.0
+  Baseline: 160.0 OK
+  PDA:      160.0 OK
+  Workers:  [160.0, 160.0, 160.0]
+  Running: Baseline 131/136 (96.3%) | PDA 133/136 (97.8%)
+
+[137/200] Q: There are 4 roses in the vase. There are 7 more dahlias than roses in the vase. ...
+  Ground truth: 15.0
+  Baseline: 15.0 OK
+  PDA:      15.0 OK
+  Workers:  [15.0, 15.0, 15.0]
+  Running: Baseline 132/137 (96.4%) | PDA 134/137 (97.8%)
+
+[138/200] Q: Steve put together a puzzle that took 10 hours of hard work to complete. Anna pu...
+  Ground truth: 7.0
+  Baseline: 7.0 OK
+  PDA:      7.0 OK
+  Workers:  [7.0, 7.0, 7.0]
+  Running: Baseline 133/138 (96.4%) | PDA 135/138 (97.8%)
+
+[139/200] Q: John decides to build a program capable of identifying cancer cells.  He gets in...
+  Ground truth: 1450000.0
+  Baseline: 1450000.0 OK
+  PDA:      1450000.0 OK
+  Workers:  [1450000.0, 1450000.0, 1450000.0]
+  Running: Baseline 134/139 (96.4%) | PDA 136/139 (97.8%)
+
+[140/200] Q: If there are 10 eggs in a basket, and there are twice as many eggs in a second b...
+  Ground truth: 30.0
+  Baseline: 30.0 OK
+  PDA:      30.0 OK
+  Workers:  [30.0, 30.0, 30.0]
+  Running: Baseline 135/140 (96.4%) | PDA 137/140 (97.9%)
+
+[141/200] Q: George has 45% more pears than bananas. If George has 200 bananas, how many frui...
+  Ground truth: 490.0
+  Baseline: 490.0 OK
+  PDA:      490.0 OK
+  Workers:  [490.0, 490.0, 490.0]
+  Running: Baseline 136/141 (96.5%) | PDA 138/141 (97.9%)
+
+[142/200] Q: A customer’s loyalty card at a store gives them rewards of $1 off their next pur...
+  Ground truth: 31.0
+  Baseline: 31.0 OK
+  PDA:      31.0 OK
+  Workers:  [31.0, 31.0, 31.0]
+  Running: Baseline 137/142 (96.5%) | PDA 139/142 (97.9%)
+
+[143/200] Q: Caroline is three times older than Ben. Ben is two times older than Chris. If Ch...
+  Ground truth: 24.0
+  Baseline: 24.0 OK
+  PDA:      24.0 OK
+  Workers:  [24.0, 24.0, 24.0]
+  Running: Baseline 138/143 (96.5%) | PDA 140/143 (97.9%)
+
+[144/200] Q: Marcel runs a bicycle store. His main products are three types of bikes: MTB, BM...
+  Ground truth: 131250.0
+  Baseline: 131250.0 OK
+  PDA:      131250.0 OK
+  Workers:  [131250.0, 1.0, 131250.0]
+  Running: Baseline 139/144 (96.5%) | PDA 141/144 (97.9%)
+
+[145/200] Q: A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bol...
+  Ground truth: 3.0
+  Baseline: 3.0 OK
+  PDA:      3.0 OK
+  Workers:  [3.0, 3.0, 3.0]
+  Running: Baseline 140/145 (96.6%) | PDA 142/145 (97.9%)
+
+[146/200] Q: A basic manicure starts at $35 while a pedicure starts at $40. A certain salon o...
+  Ground truth: 90.0
+  Baseline: 90.0 OK
+  PDA:      90.0 OK
+  Workers:  [90.0, 90.0, 90.0]
+  Running: Baseline 141/146 (96.6%) | PDA 143/146 (97.9%)
+
+[147/200] Q: James delivers 600 newspapers in a day. He delivers 198 newspapers to District A...
+  Ground truth: 193.0
+  Baseline: 193.0 OK
+  PDA:      193.0 OK
+  Workers:  [193.0, 193.0, 193.0]
+  Running: Baseline 142/147 (96.6%) | PDA 144/147 (98.0%)
+
+[148/200] Q: Doctor Jones is scheduling his time for Monday. He is spending nine hours at the...
+  Ground truth: 1.0
+  Baseline: 1.0 OK
+  PDA:      1.0 OK
+  Workers:  [1.0, 1.0, 1.0]
+  Running: Baseline 143/148 (96.6%) | PDA 145/148 (98.0%)
+
+[149/200] Q: Dana can run at a rate of speed four times faster than she can walk, but she can...
+  Ground truth: 18.0
+  Baseline: 18.0 OK
+  PDA:      18.0 OK
+  Workers:  [18.0, 18.0, 18.0]
+  Running: Baseline 144/149 (96.6%) | PDA 146/149 (98.0%)
+
+[150/200] Q: A watermelon farm produced 120 baby watermelons. Ashlyn went to the farm after t...
+  Ground truth: 21.0
+  Baseline: 21.0 OK
+  PDA:      21.0 OK
+  Workers:  [21.0, 21.0, 21.0]
+  Running: Baseline 145/150 (96.7%) | PDA 147/150 (98.0%)
+
+[151/200] Q: Mara added 3 slices of cake to a plate that already had 2 slices on it. She was ...
+  Ground truth: 8.0
+  Baseline: 8.0 OK
+  PDA:      8.0 OK
+  Workers:  [8.0, 8.0, 8.0]
+  Running: Baseline 146/151 (96.7%) | PDA 148/151 (98.0%)
+
+[152/200] Q: James gets a job selling used cars.  He sold 10 cars that cost $25,000 each.  Th...
+  Ground truth: 17500.0
+  Baseline: 17500.0 OK
+  PDA:      17500.0 OK
+  Workers:  [17500.0, 1.0, 17500.0]
+  Running: Baseline 147/152 (96.7%) | PDA 149/152 (98.0%)
+
+[153/200] Q: An 8-year old child wants to buy a toy car which costs $12. He already has $4 sa...
+  Ground truth: 4.0
+  Baseline: 4.0 OK
+  PDA:      4.0 OK
+  Workers:  [4.0, 4.0, 4.0]
+  Running: Baseline 148/153 (96.7%) | PDA 150/153 (98.0%)
+
+[154/200] Q: A customs officer at the main port of SeaSide clearances counted 2 containers of...
+  Ground truth: 4.0
+  Baseline: 4.0 OK
+  PDA:      4.0 OK
+  Workers:  [4.0, 4.0, 4.0]
+  Running: Baseline 149/154 (96.8%) | PDA 151/154 (98.1%)
+
+[155/200] Q: Heather's razors come 4 to a pack and cost $4.00 a pack.  They are currently on ...
+  Ground truth: 25.0
+  Baseline: 25.0 OK
+  PDA:      25.0 OK
+  Workers:  [25.0, 25.0, 25.0]
+  Running: Baseline 150/155 (96.8%) | PDA 152/155 (98.1%)
+
+[156/200] Q: Juan and his brother Carlos are selling lemonade. For each gallon they make it c...
+  Ground truth: 15.0
+  Baseline: 15.0 OK
+  PDA:      15.0 OK
+  Workers:  [15.0, 15.0, 15.0]
+  Running: Baseline 151/156 (96.8%) | PDA 153/156 (98.1%)
+
+[157/200] Q: Adam bought himself some new trousers for $30. His mother gave him $6 for this p...
+  Ground truth: 12.0
+  Baseline: 12.0 OK
+  PDA:      12.0 OK
+  Workers:  [12.0, 12.0, 12.0]
+  Running: Baseline 152/157 (96.8%) | PDA 154/157 (98.1%)
+
+[158/200] Q: There are 700 bees in a hive. There are twice as many worker bees as baby bees, ...
+  Ground truth: 400.0
+  Baseline: 400.0 OK
+  PDA:      400.0 OK
+  Workers:  [400.0, 400.0, 400.0]
+  Running: Baseline 153/158 (96.8%) | PDA 155/158 (98.1%)
+
+[159/200] Q: Caroline has 4 children.  The first child is 6 feet tall.  The second child is t...
+  Ground truth: 72.0
+  Baseline: 72.0 OK
+  PDA:      72.0 OK
+  Workers:  [72.0, 72.0, 72.0]
+  Running: Baseline 154/159 (96.9%) | PDA 156/159 (98.1%)
+
+[160/200] Q: Each solid 10-foot section of a redwood tree weighs 400 pounds. Termites ate 30%...
+  Ground truth: 5600.0
+  Baseline: 5600.0 OK
+  PDA:      5600.0 OK
+  Workers:  [5600.0, 5600.0, 5600.0]
+  Running: Baseline 155/160 (96.9%) | PDA 157/160 (98.1%)
+
+[161/200] Q: Maddison has 5 boxes with 50 marbles in each box. Then she gets 20 marbles from ...
+  Ground truth: 270.0
+  Baseline: 270.0 OK
+  PDA:      270.0 OK
+  Workers:  [270.0, 270.0, 270.0]
+  Running: Baseline 156/161 (96.9%) | PDA 158/161 (98.1%)
+
+[162/200] Q: India has 4 more than half the number of states in the USA. What's the total num...
+  Ground truth: 79.0
+  Baseline: 79.0 OK
+  PDA:      79.0 OK
+  Workers:  [79.0, 79.0, 79.0]
+  Running: Baseline 157/162 (96.9%) | PDA 159/162 (98.1%)
+
+[163/200] Q: John packs M&M in small bags to eat.  He buys 3 large bags weighing 10 ounces ea...
+  Ground truth: 90.0
+  Baseline: 90.0 OK
+  PDA:      90.0 OK
+  Workers:  [90.0, 90.0, 90.0]
+  Running: Baseline 158/163 (96.9%) | PDA 160/163 (98.2%)
+
+[164/200] Q: A class of 200 students is split into 3 groups such that 2 of them are equal in ...
+  Ground truth: 60.0
+  Baseline: 60.0 OK
+  PDA:      60.0 OK
+  Workers:  [60.0, 60.0, 60.0]
+  Running: Baseline 159/164 (97.0%) | PDA 161/164 (98.2%)
+
+[165/200] Q: If every second, a bubbling spring creates a new jellyfish, how many jellyfish w...
+  Ground truth: 72000.0
+  Baseline: 72000.0 OK
+  PDA:      72000.0 OK
+  Workers:  [72000.0, 72000.0, 72000.0]
+  Running: Baseline 160/165 (97.0%) | PDA 162/165 (98.2%)
+
+[166/200] Q: Skyler has 100 hats on his hand with the colors red, blue, and white. Half of th...
+  Ground truth: 20.0
+  Baseline: 20.0 OK
+  PDA:      20.0 OK
+  Workers:  [20.0, 20.0, 20.0]
+  Running: Baseline 161/166 (97.0%) | PDA 163/166 (98.2%)
+
+[167/200] Q: Together, Sofie, Anne, and Fawn have 85 books. If Sofie has 25 more books than A...
+  Ground truth: 28.0
+  Baseline: 28.0 OK
+  PDA:      28.0 OK
+  Workers:  [28.0, 28.0, 28.0]
+  Running: Baseline 162/167 (97.0%) | PDA 164/167 (98.2%)
+
+[168/200] Q: 15 gallons of gas were equally divided into 5 different containers. Josey needed...
+  Ground truth: 6.0
+  Baseline: 6.0 OK
+  PDA:      6.0 OK
+  Workers:  [6.0, 6.0, 6.0]
+  Running: Baseline 163/168 (97.0%) | PDA 165/168 (98.2%)
+
+[169/200] Q: Tim decides to light off some fireworks for the fourth of July.  He buys a packa...
+  Ground truth: 1110.0
+  Baseline: 1110.0 OK
+  PDA:      1110.0 OK
+  Workers:  [1110.0, 1110.0, 1110.0]
+  Running: Baseline 164/169 (97.0%) | PDA 166/169 (98.2%)
+
+[170/200] Q: In a grocery store, four apples cost $5.20, and three oranges cost $3.30. How mu...
+  Ground truth: 12.0
+  Baseline: 5.0 WRONG
+  PDA:      12.0 OK
+  Workers:  [12.0, 12.0, 12.0]
+  Running: Baseline 164/170 (96.5%) | PDA 167/170 (98.2%)
+
+[171/200] Q: Leila buys 3 cucumbers from the market. Cucumbers are $2 each. Jack buys 5 tomat...
+  Ground truth: 14.0
+  Baseline: 14.0 OK
+  PDA:      14.0 OK
+  Workers:  [14.0, 14.0, 14.0]
+  Running: Baseline 165/171 (96.5%) | PDA 168/171 (98.2%)
+
+[172/200] Q: Joseph had 3 times as many notebooks as Martha. Martha decided she needed more n...
+  Ground truth: 1.0
+  Baseline: 1.0 OK
+  PDA:      1.0 OK
+  Workers:  [1.0, 1.0, 1.0]
+  Running: Baseline 166/172 (96.5%) | PDA 169/172 (98.3%)
+
+[173/200] Q: Imma has 3 cats. She feeds her cats twice a day with 60 grams of cat food. How m...
+  Ground truth: 2.0
+  Baseline: 6.0 WRONG
+  PDA:      6.0 WRONG
+  Workers:  [6.0, 6.0, 6.0]
+  Running: Baseline 166/173 (96.0%) | PDA 169/173 (97.7%)
+
+[174/200] Q: A three-toed sloth moves very slowly, and only eats when he is up in his tree.  ...
+  Ground truth: 12.0
+  Baseline: 12.0 OK
+  PDA:      12.0 OK
+  Workers:  [12.0, 12.0, 12.0]
+  Running: Baseline 167/174 (96.0%) | PDA 170/174 (97.7%)
+
+[175/200] Q: Isabelle bought party supplies for her little sister’s birthday party. She spent...
+  Ground truth: 32.0
+  Baseline: 32.0 OK
+  PDA:      32.0 OK
+  Workers:  [32.0, 32.0, 32.0]
+  Running: Baseline 168/175 (96.0%) | PDA 171/175 (97.7%)
+
+[176/200] Q: Janet takes two bus trips five days a week. If each bus trip costs her $2.20, ho...
+  Ground truth: 2.0
+  Baseline: 2.0 OK
+  PDA:      2.0 OK
+  Workers:  [2.0, 2.0, 2.0]
+  Running: Baseline 169/176 (96.0%) | PDA 172/176 (97.7%)
+
+[177/200] Q: Grayson recycles cans and bottles for money each week. An aluminum can is worth ...
+  Ground truth: 84.0
+  Baseline: 84.0 OK
+  PDA:      84.0 OK
+  Workers:  [84.0, 84.0, 84.0]
+  Running: Baseline 170/177 (96.0%) | PDA 173/177 (97.7%)
+
+[178/200] Q: The expenditure of Joseph in May was $500. In June, his expenditure was $60 less...
+  Ground truth: 940.0
+  Baseline: 940.0 OK
+  PDA:      940.0 OK
+  Workers:  [940.0, 1.0, 940.0]
+  Running: Baseline 171/178 (96.1%) | PDA 174/178 (97.8%)
+
+[179/200] Q: A certain company is in the business of selling fresh fruit. One crate of such f...
+  Ground truth: 32.0
+  Baseline: 32.0 OK
+  PDA:      32.0 OK
+  Workers:  [32.0, 32.0, 32.0]
+  Running: Baseline 172/179 (96.1%) | PDA 175/179 (97.8%)
+
+[180/200] Q: According to its nutritional info, a bag of chips has 250 calories per serving. ...
+  Ground truth: 48.0
+  Baseline: 48.0 OK
+  PDA:      48.0 OK
+  Workers:  [48.0, 48.0, 48.0]
+  Running: Baseline 173/180 (96.1%) | PDA 176/180 (97.8%)
+
+[181/200] Q: Twenty tourists discovered 700 shells in a strip mall parking lot. They had divi...
+  Ground truth: 168.0
+  Baseline: 168.0 OK
+  PDA:      168.0 OK
+  Workers:  [168.0, 168.0, 168.0]
+  Running: Baseline 174/181 (96.1%) | PDA 177/181 (97.8%)
+
+[182/200] Q: Jane has saved $4 of her allowance every week for the past 8 weeks. If she conti...
+  Ground truth: 7.0
+  Baseline: 7.0 OK
+  PDA:      7.0 OK
+  Workers:  [7.0, 7.0, 7.0]
+  Running: Baseline 175/182 (96.2%) | PDA 178/182 (97.8%)
+
+[183/200] Q: There are 30 students in Marissa’s class. Each student started the year with 10 ...
+  Ground truth: 80.0
+  Baseline: 80.0 OK
+  PDA:      80.0 OK
+  Workers:  [80.0, 80.0, 80.0]
+  Running: Baseline 176/183 (96.2%) | PDA 179/183 (97.8%)
+
+[184/200] Q: Bernie has 4 dogs. They each need a certain amount of exercise per day. The firs...
+  Ground truth: 4.0
+  Baseline: 4.0 OK
+  PDA:      4.0 OK
+  Workers:  [4.0, 4.0, 4.0]
+  Running: Baseline 177/184 (96.2%) | PDA 180/184 (97.8%)
+
+[185/200] Q: In a dance class of 20 students, 20% enrolled in contemporary dance, 25% of the ...
+  Ground truth: 60.0
+  Baseline: 60.0 OK
+  PDA:      60.0 OK
+  Workers:  [60.0, 60.0, 60.0]
+  Running: Baseline 178/185 (96.2%) | PDA 181/185 (97.8%)
+
+[186/200] Q: John has 10 hectares of a pineapple field. There are 100 pineapples per hectare....
+  Ground truth: 4000.0
+  Baseline: 4000.0 OK
+  PDA:      4000.0 OK
+  Workers:  [4000.0, 1.0, 4000.0]
+  Running: Baseline 179/186 (96.2%) | PDA 182/186 (97.8%)
+
+[187/200] Q: Jackie grew 3" over the summer.  She is now 2" shorter than Anne, who is twice t...
+  Ground truth: 67.0
+  Baseline: 67.0 OK
+  PDA:      67.0 OK
+  Workers:  [67.0, 67.0, 67.0]
+  Running: Baseline 180/187 (96.3%) | PDA 183/187 (97.9%)
+
+[188/200] Q: Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of pa...
+  Ground truth: 240.0
+  Baseline: 240.0 OK
+  PDA:      240.0 OK
+  Workers:  [240.0, 240.0, 240.0]
+  Running: Baseline 181/188 (96.3%) | PDA 184/188 (97.9%)
+
+[189/200] Q: Fireman Frank has 200 shoes. If he gets 5 pairs of shoes on Monday and gains 15 ...
+  Ground truth: 120.0
+  Baseline: 120.0 OK
+  PDA:      120.0 OK
+  Workers:  [120.0, 120.0, 120.0]
+  Running: Baseline 182/189 (96.3%) | PDA 185/189 (97.9%)
+
+[190/200] Q: Mark took a test yesterday that consisted of 75 questions. He completed the test...
+  Ground truth: 105.0
+  Baseline: 105.0 OK
+  PDA:      105.0 OK
+  Workers:  [105.0, 105.0, 105.0]
+  Running: Baseline 183/190 (96.3%) | PDA 186/190 (97.9%)
+
+[191/200] Q: Sophia is thinking of taking a road trip in her car, and would like to know how ...
+  Ground truth: 300.0
+  Baseline: 300.0 OK
+  PDA:      300.0 OK
+  Workers:  [300.0, 300.0, 300.0]
+  Running: Baseline 184/191 (96.3%) | PDA 187/191 (97.9%)
+
+[192/200] Q: Three people invested $1200 in a joint savings account.  After Dylan's investmen...
+  Ground truth: 240.0
+  Baseline: 240.0 OK
+  PDA:      240.0 OK
+  Workers:  [240.0, 240.0, 240.0]
+  Running: Baseline 185/192 (96.4%) | PDA 188/192 (97.9%)
+
+[193/200] Q: Romeo boards a train with 120 people. At the first stop, 20 more people board th...
+  Ground truth: 110.0
+  Baseline: 111.0 WRONG
+  PDA:      111.0 WRONG
+  Workers:  [111.0, 111.0, 111.0]
+  Running: Baseline 185/193 (95.9%) | PDA 188/193 (97.4%)
+
+[194/200] Q: Uncle Ben has four horses. Each horse can consume five pounds of oats per meal. ...
+  Ground truth: 4.0
+  Baseline: 4.0 OK
+  PDA:      4.0 OK
+  Workers:  [4.0, 4.0, 4.0]
+  Running: Baseline 186/194 (95.9%) | PDA 189/194 (97.4%)
+
+[195/200] Q: Peter has $70 and wishes to spend an equal amount each day for one week. From Su...
+  Ground truth: 23.0
+  Baseline: 23.0 OK
+  PDA:      23.0 OK
+  Workers:  [23.0, 23.0, 23.0]
+  Running: Baseline 187/195 (95.9%) | PDA 190/195 (97.4%)
+
+[196/200] Q: Tobias, Chikote, and Igneous are the three little wolves who live in the forest ...
+  Ground truth: 2.0
+  Baseline: 2.0 OK
+  PDA:      2.0 OK
+  Workers:  [2.0, 2.0, 2.0]
+  Running: Baseline 188/196 (95.9%) | PDA 191/196 (97.4%)
+
+[197/200] Q: Antoine's french onion soup recipe calls for 2 pounds of onions. He likes to dou...
+  Ground truth: 2.0
+  Baseline: 2.0 OK
+  PDA:      2.0 OK
+  Workers:  [2.0, 2.0, 2.0]
+  Running: Baseline 189/197 (95.9%) | PDA 192/197 (97.5%)
+
+[198/200] Q: Mary buys 3 bags of M&Ms. The first bag has 300 M&Ms in it. The second bag has 1...
+  Ground truth: 762.0
+  Baseline: 762.0 OK
+  PDA:      762.0 OK
+  Workers:  [762.0, 762.0, 762.0]
+  Running: Baseline 190/198 (96.0%) | PDA 193/198 (97.5%)
+
+[199/200] Q: Ronnie was given $5 while Rissa was given thrice as much. After each of them had...
+  Ground truth: 2.0
+  Baseline: 2.0 OK
+  PDA:      2.0 OK
+  Workers:  [2.0, 2.0, 2.0]
+  Running: Baseline 191/199 (96.0%) | PDA 194/199 (97.5%)
+
+[200/200] Q: A company sold 4000 gallons of milk in jars to Mr. Marcellus' store at the cost ...
+  Ground truth: 5600.0
+  Baseline: 5600.0 OK
+  PDA:      5600.0 OK
+  Workers:  [5600.0, 5600.0, 5600.0]
+  Running: Baseline 192/200 (96.0%) | PDA 195/200 (97.5%)
+
+============================================================
+FINAL RESULTS (200 questions)
+  Baseline: 192/200 (96.0%)
+  PDA (n=3): 195/200 (97.5%)
+  Delta: +1.5%
+============================================================
+Results saved to /workspace/share/projects/pda-research/simulation-4-gsm8k/sim4_200_random.json

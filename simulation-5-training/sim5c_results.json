@@ -1,0 +1,57 @@
+{
+  "base": {
+    "GSM8K": {
+      "correct": 31,
+      "total": 200,
+      "accuracy": 15.5
+    },
+    "MATH": {
+      "correct": 0,
+      "total": 200,
+      "accuracy": 0.0
+    },
+    "ARC-C": {
+      "correct": 1,
+      "total": 200,
+      "accuracy": 0.5
+    }
+  },
+  "pda": {
+    "GSM8K": {
+      "correct": 113,
+      "total": 200,
+      "accuracy": 56.5
+    },
+    "MATH": {
+      "correct": 14,
+      "total": 200,
+      "accuracy": 7.0
+    },
+    "ARC-C": {
+      "correct": 148,
+      "total": 200,
+      "accuracy": 74.0
+    }
+  },
+  "cot": {
+    "GSM8K": {
+      "correct": 85,
+      "total": 200,
+      "accuracy": 42.5
+    },
+    "MATH": {
+      "correct": 16,
+      "total": 200,
+      "accuracy": 8.0
+    },
+    "ARC-C": {
+      "correct": 142,
+      "total": 200,
+      "accuracy": 71.0
+    }
+  },
+  "pda_examples": 834,
+  "cot_examples": 830,
+  "model": "Qwen3-1.7B",
+  "method": "QLoRA r=16, 3ep"
+}

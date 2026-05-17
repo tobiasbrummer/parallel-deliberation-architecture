@@ -1,0 +1,39 @@
+{
+  "base": {
+    "GSM8K": {
+      "correct": 31,
+      "total": 200,
+      "accuracy": 15.5
+    },
+    "MATH": {
+      "correct": 0,
+      "total": 200,
+      "accuracy": 0.0
+    },
+    "ARC-C": {
+      "correct": 1,
+      "total": 200,
+      "accuracy": 0.5
+    }
+  },
+  "distilled": {
+    "GSM8K": {
+      "correct": 120,
+      "total": 200,
+      "accuracy": 60.0
+    },
+    "MATH": {
+      "correct": 9,
+      "total": 200,
+      "accuracy": 4.5
+    },
+    "ARC-C": {
+      "correct": 145,
+      "total": 200,
+      "accuracy": 72.5
+    }
+  },
+  "training_examples": 834,
+  "student": "Qwen3-1.7B",
+  "method": "QLoRA r=16, 3ep"
+}

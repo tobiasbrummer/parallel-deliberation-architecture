@@ -1,0 +1,1411 @@
+Loading GSM8K training set...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+[1/200] Stefan goes to a restaurant to eat dinner with his family. T...
+  CoT... OK (108.0)
+  PDA-2... OK (108.0)
+  PDA-3... OK (108.0)
+  PDA-4... OK (108.0)
+  PDA-5... OK (108.0)
+
+[2/200] The gauge on a water tank shows that the tank is 1/3 full of...
+  CoT... OK (24.0)
+  PDA-2... OK (24.0)
+  PDA-3... OK (24.0)
+  PDA-4... OK (24.0)
+  PDA-5... OK (24.0)
+
+[3/200] Ben has 8 apples more than Phillip does. Tom has three eight...
+  CoT... OK (18.0)
+  PDA-2... OK (18.0)
+  PDA-3... OK (18.0)
+  PDA-4... OK (18.0)
+  PDA-5... OK (18.0)
+
+[4/200] John wants to start a zoo.  He has 15 snakes.  He has twice ...
+  CoT... OK (114.0)
+  PDA-2... OK (114.0)
+  PDA-3... OK (114.0)
+  PDA-4... OK (114.0)
+  PDA-5... OK (114.0)
+
+[5/200] A portable battery charger can fully charge a smartphone in ...
+  CoT... OK (66.0)
+  PDA-2... OK (66.0)
+  PDA-3... OK (66.0)
+  PDA-4... OK (66.0)
+  PDA-5... OK (66.0)
+
+[6/200] Darla needs to pay $4/watt of electricity for 300 watts of e...
+  CoT... OK (1350.0)
+  PDA-2... OK (1350.0)
+  PDA-3... OK (1350.0)
+  PDA-4... OK (1350.0)
+  PDA-5... OK (1350.0)
+
+[7/200] There have been 15 "Where's Waldo?" books published. Each bo...
+  CoT... OK (1350.0)
+  PDA-2... OK (1350.0)
+  PDA-3... OK (1350.0)
+  PDA-4... OK (1350.0)
+  PDA-5... OK (1350.0)
+
+[8/200] Bart makes a mixtape.  The first side has 6 songs.  The seco...
+  CoT... OK (40.0)
+  PDA-2... OK (40.0)
+  PDA-3... OK (40.0)
+  PDA-4... OK (40.0)
+  PDA-5... OK (40.0)
+
+[9/200] An old pirate wants to leave his treasure on an island. He h...
+  CoT... OK (1000.0)
+  PDA-2... OK (1000.0)
+  PDA-3... OK (1000.0)
+  PDA-4... OK (1000.0)
+  PDA-5... OK (1000.0)
+
+[10/200] New York recorded 5000 new coronavirus cases on a particular...
+  CoT... WRONG (12000.0)
+  PDA-2... WRONG (12000.0)
+  PDA-3... WRONG (12000.0)
+  PDA-4... WRONG (12000.0)
+  PDA-5... WRONG (12000.0)
+
+[11/200] Brady will make $450 more in a year than Dwayne. If Dwayne m...
+  CoT... OK (3450.0)
+  PDA-2... OK (3450.0)
+  PDA-3... OK (3450.0)
+  PDA-4... OK (3450.0)
+  PDA-5... OK (3450.0)
+
+[12/200] Carolyn is planning out her final essay. The introduction wi...
+  CoT... OK (800.0)
+  PDA-2... OK (800.0)
+  PDA-3... OK (800.0)
+  PDA-4... OK (800.0)
+  PDA-5... WRONG (None)
+
+[13/200] Marie has 98 unread messages on her phone. She decides to cl...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[14/200] Mitzel spent 35% of her allowance. If she spent $14, how muc...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[15/200] Hank reads the newspaper every morning, 5 days a week for 30...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[16/200] Arnold owns three cars. The first car averages 50 miles per ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[17/200] There are 180 students in ninth grade. 1/4 of them bombed th...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[18/200] 4 friends are running a 4 x 100 relay race.  Mary ran first ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[19/200] Mr. Maximilian has a rental building that he collects rent f...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[20/200] When Jason plays the video game, Duty for Ashes, his mission...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[21/200] Thomas, Toby, and Rebecca worked a total of 157 hours in one...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[22/200] Taegan goes to a carnival where she wins tickets from each o...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[23/200] Corna wants to buy a shirt. The store buys the shirt for $20...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[24/200] McKenna has 34 stuffed animals. Kenley has twice as many as ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[25/200] 5 squirrels collected 575 acorns. If each squirrel needs 130...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[26/200] Allie's making guacamole for a party. Each batch requires 4 ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[27/200] It was Trevor's job to collect fresh eggs from the family's ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[28/200] The chicken crossed the road to get to the other side twice ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[29/200] Frank invites his friends over to play video games. He bakes...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[30/200] Jason's dog has a tail that's half the length of its body, a...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[31/200] There are 14 green papayas on the papaya tree.  On Friday, t...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[32/200] Out of 804 senior high school students, 75% passed their exa...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[33/200] Every 4 weeks, Helen hand washes her silk pillowcases.  It t...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[34/200] Amy biked 12 miles yesterday. If she biked 3 miles less than...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[35/200] Meghan had money in the following denomination: 2 $100 bills...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[36/200] A pack of pretzels costs $4, while a pack of chips is 75% mo...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[37/200] Melony makes $21 of profit every time she sells 3 shirts and...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[38/200] There were 80 people at a football game on Saturday. On Mond...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[39/200] Ivan had $10 and spent 1/5 of it on cupcakes. He then spent ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[40/200] Mary is trying to get Zoom set up for the first time. She sp...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[41/200] Kantana loves chocolate. Every Saturday she goes to the cand...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[42/200] After uploading her video to Youtube, Kallie received 4000 v...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[43/200] Tom opens an amusement park.  It cost $100,000 to open initi...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[44/200] Rayden bought three times as many ducks as Lily from the mar...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[45/200] For the gala luncheon planning committee, Margaret wants to ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[46/200] A busy restaurant is counting how many customers they had du...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[47/200] John decides to buy a month's supply of dog treats.  He give...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... OK (6.0)
+  PDA-4... OK (6.0)
+  PDA-5... OK (6.0)
+
+[48/200] Janet bought some muffins at the bakery. Each muffin is 75 c...
+  CoT... OK (12.0)
+  PDA-2... OK (12.0)
+  PDA-3... OK (12.0)
+  PDA-4... OK (12.0)
+  PDA-5... OK (12.0)
+
+[49/200] One necklace is worth $34. Bob decided to buy one for his wi...
+  CoT... OK (3.0)
+  PDA-2... OK (3.0)
+  PDA-3... OK (3.0)
+  PDA-4... OK (3.0)
+  PDA-5... OK (3.0)
+
+[50/200] CJ, KJ, and AJ collect stamps.  CJ has 5 more than twice the...
+  CoT... OK (370.0)
+  PDA-2... OK (370.0)
+  PDA-3... OK (370.0)
+  PDA-4... OK (370.0)
+  PDA-5... OK (370.0)
+
+[51/200] If Billy and Jenny each order a $20 steak along with a $5 dr...
+  CoT... OK (8.0)
+  PDA-2... OK (8.0)
+  PDA-3... OK (8.0)
+  PDA-4... OK (8.0)
+  PDA-5... OK (8.0)
+
+[52/200] Micah, Dean, and Jake are all training for a marathon organi...
+  CoT... OK (23.0)
+  PDA-2... WRONG (40.5)
+  PDA-3... OK (23.0)
+  PDA-4... OK (23.0)
+  PDA-5... OK (23.0)
+
+[53/200] Bart fills out surveys to earn money. He receives $0.2 for e...
+  CoT... OK (14.0)
+  PDA-2... OK (14.0)
+  PDA-3... OK (14.0)
+  PDA-4... OK (14.0)
+  PDA-5... OK (14.0)
+
+[54/200] Bella is making bracelets for her 6 friends. She needs 8 bea...
+  CoT... OK (12.0)
+  PDA-2... OK (12.0)
+  PDA-3... OK (12.0)
+  PDA-4... OK (12.0)
+  PDA-5... OK (12.0)
+
+[55/200] The bus driver drives an average of 2 hours each day, 5 days...
+  CoT... OK (108.0)
+  PDA-2... OK (108.0)
+  PDA-3... OK (108.0)
+  PDA-4... OK (108.0)
+  PDA-5... OK (108.0)
+
+[56/200] Mary was working on a research paper and already had borrowe...
+  CoT... OK (12.0)
+  PDA-2... OK (12.0)
+  PDA-3... OK (12.0)
+  PDA-4... OK (12.0)
+  PDA-5... OK (12.0)
+
+[57/200] Abie had 20 bags of chips. She gave 4 bags to her friend and...
+  CoT... OK (22.0)
+  PDA-2... OK (22.0)
+  PDA-3... OK (22.0)
+  PDA-4... OK (22.0)
+  PDA-5... OK (22.0)
+
+[58/200] Charley has a bag that contains 51 white beads and 90 black ...
+  CoT... OK (32.0)
+  PDA-2... OK (32.0)
+  PDA-3... OK (32.0)
+  PDA-4... OK (32.0)
+  PDA-5... OK (32.0)
+
+[59/200] Zack's number of marbles can be divided equally among three ...
+  CoT... OK (65.0)
+  PDA-2... OK (65.0)
+  PDA-3... OK (65.0)
+  PDA-4... OK (65.0)
+  PDA-5... OK (65.0)
+
+[60/200] Emily bought 9 packs of candy necklaces to give her classmat...
+  CoT... OK (4.0)
+  PDA-2... OK (4.0)
+  PDA-3... OK (4.0)
+  PDA-4... OK (4.0)
+  PDA-5... OK (4.0)
+
+[61/200] Mr. Sanchez found out that 40% of his Grade 5  students got ...
+  CoT... OK (36.0)
+  PDA-2... OK (36.0)
+  PDA-3... OK (36.0)
+  PDA-4... OK (36.0)
+  PDA-5... OK (36.0)
+
+[62/200] Abigail is trying a new recipe for a cold drink. It uses 1/4...
+  CoT... OK (15.0)
+  PDA-2... OK (15.0)
+  PDA-3... OK (15.0)
+  PDA-4... OK (15.0)
+  PDA-5... OK (15.0)
+
+[63/200] Martin went to a store to buy a new television set. He decid...
+  CoT... OK (280.0)
+  PDA-2... OK (280.0)
+  PDA-3... OK (280.0)
+  PDA-4... OK (280.0)
+  PDA-5... OK (280.0)
+
+[64/200] Jane, Kyla, and Anthony have summer jobs in a resort. Their ...
+  CoT... OK (87.0)
+  PDA-2... OK (87.0)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[65/200] 40% of the mosquitos in Jack's area are infected with malari...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[66/200] Josh and Anna were both born on August 17th, but in differen...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[67/200] Tom plays an online trading card game.  His deck has 19 rare...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[68/200] After Bella’s ballet performance, she received 2 dozen roses...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[69/200] In a 5-day Fishing competition, Jackson was able to reel a t...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[70/200] On Thursday Walmart sold 210 pounds of ground beef. On Frida...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[71/200] Clayton plays basketball on a team. He has played three game...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[72/200] Chris has twelve marbles, and Ryan has twenty-eight marbles....
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[73/200] Tim decides to start selling necklaces he makes.  He uses 10...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[74/200] In a jar that has 50 ants, the number of ants in the jar dou...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[75/200] The base of a hill located beside a river is 300m above the ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[76/200] Don buys recyclable bottles in a small town. Shop A normally...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[77/200] Lena has 16 candy bars. She needs 5 more candy bars to have ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[78/200] Of the 100 soccer balls that Nova went to inflate, 40 percen...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[79/200] Amanda and her family are going to re-paint all the walls in...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[80/200] Mr. and Mrs. McPherson have to renew their rent by the end o...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[81/200] A library cabinet houses five ancient scrolls. The first scr...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[82/200] A convenience store sells 180  gallons of soda a week.  They...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[83/200] Of 96 oranges, half were ripe. If 1/4 of the ripe oranges we...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[84/200] A monkey swings from branch to branch at an average distance...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[85/200] Five friends eat at a fast-food chain and order the followin...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[86/200] Amber is trying to decide if she wants to spend her $7 on ca...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[87/200] During a commercial break in the Super Bowl, there were thre...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[88/200] There are 40 ducks in a pond.  50 percent of the ducks are M...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[89/200] A tomato plant has 100 tomatoes. Jane picks 1/4 of that numb...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[90/200] Oleg is an event organizer. He is organizing an event with 8...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[91/200] An aqua park charges $12 admission and $6 for a tour. A grou...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[92/200] There are 4,000 jelly beans in a jar. If three fourths of th...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[93/200] Nina makes one-of-a-kind jewelry and sells it at a local bou...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[94/200] 10 boxes each contain 50 bottles of water.  Each bottle has ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[95/200] If there are two pennies in each of the twelve compartments ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[96/200] Three plastic chairs cost as much as a portable table. Five ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[97/200] In Fifi's closet, she hangs all of her clothes on colored pl...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[98/200] A housewife goes to the market. She spent 2/3 of her $150. H...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[99/200] Laran has started a poster business. She is selling 5 poster...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[100/200] Lars owns a bakeshop. She can bake 10 loaves of bread within...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[101/200] Lily has 5 lottery tickets to sell.  She sells the first tic...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[102/200] A movie theater company is advertising a deal of a movie tic...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[103/200] Bronson decides to collect Oak Leaves from around his Neighb...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[104/200] The pet store can buy a goldfish for $.25 and sell it for $....
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[105/200] Aunt May milks her cows twice a day. This morning she got 36...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[106/200] John uses 5 liters of fuel per km to travel. How many liters...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[107/200] June found 2 birds nest with 5 eggs each in 1 tree and 1 nes...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[108/200] Nine members of the crafts club are making 2 necklaces each....
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[109/200] John travels 150 miles in 2 hours.  The speed limit is 60 mp...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[110/200] Mabel is counting sharks in the ocean. She knows that of the...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[111/200] Marianne was 20 years old when Bella was 8 years old. How ol...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[112/200] Bert, Ernie, and Peggy collect stamps.  Bert has four times ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[113/200] Steve has decided to become a baker. On Mondays, Wednesdays ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[114/200] Melissa wants to make some dresses to sell at the upcoming f...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[115/200] John watches a TV show and they announce they are going to d...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[116/200] The Dark Lord needs to transport 1200 pounds of swords to th...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[117/200] Rachel and Sara want to attend a beauty and modeling contest...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[118/200] Hayden has a tank with a small hole in the bottom. The tank ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[119/200] Ice cream costs $2.00 and toppings cost $0.50 per topping. H...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[120/200] Russel and Jen went to the circus. Jen played a shooting gam...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[121/200] James turned 23 the same time John turned 35.  Tim is 5 year...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[122/200] Jennifer's boyfriend left 5 texts about the grocery shopping...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[123/200] On a particular week, Fatima's restaurant served 25 people f...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[124/200] During one game, a total of 50 people attended a baseball te...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[125/200] Matthew, the baker, arrives at work early every morning to m...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[126/200] Four people in a law firm are planning a party. Mary will bu...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[127/200] Joe played catch with Derek and Tammy. He caught the ball 23...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[128/200] Bob gets paid $5 an hour for the regular hours he works and ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[129/200] Anika has 4 more than twice the number of pencils as Reeta. ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[130/200] Beth had 150 students in her 10th-grade class.  The followin...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[131/200] Matt did his homework for 150 minutes. He spent 30% of that ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[132/200] Shawna has 7 acorns. Sheila has 5 times as many acorns as Sh...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[133/200] Harly's animal shelter has 80 dogs. She adopts out 40% of th...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[134/200] At Sunshine Orchard, there are 12 more than three times the ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[135/200] I run 12 miles in 90 minutes. What is my average speed in mi...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[136/200] New York is two-thirds as populated as all of New England. I...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[137/200] John's neighbor tells him to walk his dog for 1 hour each da...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[138/200] James injured his ankle and decides to slowly start working ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[139/200] Megan is making food for a party.  She has to spend 20 minut...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[140/200] There's a sale at your favorite "Any item $10" retailer. If ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[141/200] Mason, Noah and Jacob want to have an eating contest but can...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[142/200] The price of a home is $98 per square foot (sq ft).  The hou...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[143/200] Adam has 50 balls. 20 balls are red, 10 are blue, and the re...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[144/200] It takes Jennifer 20 minutes to groom each of her 2 long hai...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[145/200] While camping, Cyrus counted 14 mosquito bites on his arms a...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[146/200] Ms. Jones got thank you cards from 30% of her class. 1/3 of ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[147/200] Mary is writing a story, and wants her 60 characters to be s...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[148/200] It takes Polly 20 minutes to cook breakfast every day. She s...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[149/200] Sandi had $600. She spent half of it at a farmer’s market. G...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[150/200] An apartment building has 12 floors and half of them are ful...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[151/200] Leif’s apple tree has 14 apples and his orange tree has 2 do...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[152/200] Jules is walking dogs to help pay for his family's vacation....
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[153/200] Tom is binge-watching a show on Netflix. The show has 90 epi...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[154/200] Jim is a maintenance worker at a pool. Every time someone ju...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[155/200] Trevor buys three bouquets of carnations. The first included...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[156/200] Brianne saves $10 in January. Each month, she saves twice as...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[157/200] Kerry is ready to celebrate his birthday and wants to have t...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[158/200] Brittany, Alex, and Jamy all share 600 marbles divided betwe...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[159/200] A company has 200 employees.  60% of the employees drive to ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[160/200] Ellis is going to take a road trip with her family. First, s...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[161/200] A store offers a $2 discount for every $10 purchase on any i...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[162/200] Chad sandwiches 2 crackers with a scoop of peanut butter.  H...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[163/200] Johnny buys 15 packs of colored pencils for his class. Each ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[164/200] Nancy has a bag containing 22 tortilla chips. She gives 7 to...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[165/200] Gilbert, the bearded dragon, eats 4 crickets per week when t...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[166/200] Two companies A and B, are selling bottled milk. Company A s...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[167/200] A bathroom has 10 6 inch tiles along its width and 20 6 inch...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[168/200] Madison makes 30 paper boats and sets them afloat. 20% are e...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[169/200] Matt is playing basketball. In the first quarter, he made 2-...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[170/200] Mike began to train to play basketball every day for a tourn...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[171/200] Randy had some money. Smith gave him another $200. Randy the...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[172/200] James had two browsers on his computer. In each browser, he ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[173/200] Ruby was going to order pizza for dinner.  Her son would onl...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[174/200] It takes 50 large jelly beans to fill up a large drinking gl...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[175/200] Uncle Jude baked 256 cookies. He gave 15 cookies to Tim, 23 ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[176/200] Apple can run at a rate of 3 miles per hour. Mac can run at ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[177/200] Mark buys a loaf of bread for $4.20 and some cheese for $2.0...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[178/200] Bob is tilling a plot of his garden. The plot is 110 feet wi...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[179/200] Zoe goes to the store to buy soda and pizza for herself and ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[180/200] It takes Dawn 2 hours to paint 1 watercolor painting.  She w...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[181/200] There were 18 stamps in Parker’s scrapbook. If Addie put one...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[182/200] Jim decides to open up a bike shop.  The most common repair ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[183/200] A secretary who has been working for 6 years and who earns €...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[184/200] Mike gets paid 100 dollars a week.  He decides to spend half...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[185/200] In a hotdog eating competition, the first competitor can eat...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[186/200] John buys a gaming PC for $1200.  He decides to replace the ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[187/200] Nancy takes 3 antacids per day when she eats Indian food, 2 ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[188/200] If Patty's dress was $10 more than Ida's dress, and Ida's dr...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[189/200] Alex had 36 ounces of jelly beans. He ate 6 ounces. Then he ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[190/200] Louis is making himself a velvet suit for a formal event. Th...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[191/200] A couple's wedding reception had 180 people. The bride and g...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[192/200] An apple tree produces 40 apples in its first year.  The sec...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[193/200] Missy watches 5 28-minute reality shows and one 10-minute ca...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[194/200] Melissa is repairing her shoes. For each shoe, it takes her ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[195/200] While passing by a store, Miley noticed that a bag that cost...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[196/200] Fiona completed 36 math questions in an hour. Shirley was ab...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[197/200] On a three-day trip, Wendy drove 125 miles on the first day,...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[198/200] Tonya spent $90.00 on art supplies.  4 canvases cost $40.00 ...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[199/200] Four classmates were comparing their ages based on their bir...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+[200/200] Claire was in charge of passing out free balloons to all the...
+  CoT... WRONG (None)
+  PDA-2... WRONG (None)
+  PDA-3... WRONG (None)
+  PDA-4... WRONG (None)
+  PDA-5... WRONG (None)
+
+==================================================
+GENERATION SUMMARY
+==================================================
+  cot: 28/200 (14.0%)
+  pda2: 27/200 (13.5%)
+  pda3: 28/200 (14.0%)
+  pda4: 28/200 (14.0%)
+  pda5: 27/200 (13.5%)

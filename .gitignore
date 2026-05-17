@@ -1,0 +1,9 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Downloaded model weights — re-download from HuggingFace, do not commit
+simulation-5-training/Qwen3-1.7B/
+simulation-5-training/Qwen3-1.7B-unsloth-bnb-4bit/
+*.safetensors

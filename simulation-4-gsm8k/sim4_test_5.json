@@ -1,0 +1,95 @@
+{
+  "config": {
+    "model": "qwen/qwen3-8b",
+    "n_questions": 5,
+    "offset": 0,
+    "n_workers": 3
+  },
+  "summary": {
+    "baseline_accuracy": 1.0,
+    "pda_accuracy": 1.0,
+    "delta": 0.0
+  },
+  "results": [
+    {
+      "index": 0,
+      "question": "Janet\u2019s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?",
+      "ground_truth": 18.0,
+      "baseline_answer": 18.0,
+      "baseline_correct": true,
+      "baseline_response": "Janet's ducks lay 16 eggs per day. She uses 3 eggs for breakfast and 4 eggs for muffins, totaling 7 eggs used daily. The remaining eggs are $16 - 7 = 9$. These 9 eggs are sold at $2 each, resulting in $9 \\times 2 = 18$ dollars. \n\n#### 18",
+      "pda_answer": 18.0,
+      "pda_correct": true,
+      "pda_worker_answers": [
+        18.0,
+        18.0,
+        18.0
+      ],
+      "pda_merge_response": "All three solutions correctly calculate the number of eggs Janet sells at the farmers' market. They subtract the eggs used for breakfast (3) and muffins (4) from the total daily eggs (16), resulting in 9 eggs. Multiplying 9 eggs by the price per egg ($2) gives $18. Each solution follows the same valid steps and arrives at the same answer. \n\n#### 18"
+    },
+    {
+      "index": 1,
+      "question": "A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bolts in total does it take?",
+      "ground_truth": 3.0,
+      "baseline_answer": 3.0,
+      "baseline_correct": true,
+      "baseline_response": "To determine the total number of bolts required for the robe, we begin by analyzing the given quantities:\n\n- The robe requires **2 bolts of blue fiber**.\n- It also requires **half that much white fiber**.\n\n---\n\n### Step 1: Calculate the amount of white fiber\n\nThe phrase \"half that much\" refers to the amount of blue fiber, which is 2 bolts. Therefore:\n\n$$\n\\text{White fiber} = \\frac{1}{2} \\times 2 = 1 \\text{ bolt}\n$$\n\n---\n\n### Step 2: Add the quantities of blue and white fiber\n\n$$\n\\text{Total bolts} = \\text{Blue fiber} + \\text{White fiber} = 2 + 1 = 3\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{3}\n$$",
+      "pda_answer": 3.0,
+      "pda_correct": true,
+      "pda_worker_answers": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "pda_merge_response": "All three solutions correctly calculate the total bolts required for the robe. They each confirm that the robe needs 2 bolts of blue fiber and 1 bolt of white fiber (half of 2), resulting in a total of 3 bolts. There is no disagreement among the solutions, and all arrive at the same answer through consistent reasoning.\n\n#### 3"
+    },
+    {
+      "index": 2,
+      "question": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?",
+      "ground_truth": 70000.0,
+      "baseline_answer": 70000.0,
+      "baseline_correct": true,
+      "baseline_response": "Josh buys a house for $80,000 and spends $50,000 on repairs. The total cost is $80,000 + $50,000 = $130,000. The value of the house increases by 150%, which means the increase is 150% of the original value of $80,000. \n\nCalculating the increase:\n$$\n150\\% \\text{ of } 80,000 = 1.5 \\times 80,000 = 120,000\n$$\n\nThe new value of the house is:\n$$\n80,000 + 120,000 = 200,000\n$$\n\nProfit is calculated as the selling price minus the total cost:\n$$\n200,000 - 130,000 = 70,000\n$$\n\n$$\n\\boxed{70000}\n$$",
+      "pda_answer": 70000.0,
+      "pda_correct": true,
+      "pda_worker_answers": [
+        70000.0,
+        70000.0,
+        70000.0
+      ],
+      "pda_merge_response": "All three solutions correctly calculate Josh's profit by following the same logical steps:\n\n1. **Total Cost**: Josh's initial investment is $80,000 (purchase price) + $50,000 (repairs) = $130,000.\n2. **Increase in Value**: The problem states the house's value increased by 150% of its **original value** ($80,000). This is calculated as $1.5 \\times 80,000 = 120,000$. Adding this to the original value gives a new value of $80,000 + 120,000 = 200,000$.\n3. **Profit Calculation**: Profit is the selling price (new value) minus total cost: $200,000 - 130,000 = 70,000$.\n\nEach solution arrives at the same answer through consistent reasoning. The interpretation of the 150% increase as applying to the original value ($80,000) is correct, as the problem explicitly states the increase is due to the repairs, not the total cost.\n\n#### 70000"
+    },
+    {
+      "index": 3,
+      "question": "James decides to run 3 sprints 3 times a week.  He runs 60 meters each sprint.  How many total meters does he run a week?",
+      "ground_truth": 540.0,
+      "baseline_answer": 540.0,
+      "baseline_correct": true,
+      "baseline_response": "James runs 3 sprints 3 times a week, totaling $3 \\times 3 = 9$ sprints per week. Each sprint is 60 meters, so the total distance is $9 \\times 60 = 540$ meters. \n\n#### 540",
+      "pda_answer": 540.0,
+      "pda_correct": true,
+      "pda_worker_answers": [
+        540.0,
+        540.0,
+        540.0
+      ],
+      "pda_merge_response": "All three solutions correctly calculate the total distance James runs in a week by first determining the total number of sprints (3 sprints/session \u00d7 3 sessions = 9 sprints) and then multiplying by the distance per sprint (60 meters). Each solution arrives at the same final answer through consistent reasoning.\n\n#### 540"
+    },
+    {
+      "index": 4,
+      "question": "Every day, Wendi feeds each of her chickens three cups of mixed chicken feed, containing seeds, mealworms and vegetables to help keep them healthy.  She gives the chickens their feed in three separate meals. In the morning, she gives her flock of chickens 15 cups of feed.  In the afternoon, she gives her chickens another 25 cups of feed.  How many cups of feed does she need to give her chickens in the final meal of the day if the size of Wendi's flock is 20 chickens?",
+      "ground_truth": 20.0,
+      "baseline_answer": 20.0,
+      "baseline_correct": true,
+      "baseline_response": "To determine how many cups of feed Wendi needs to give her chickens in the final meal of the day, we begin by calculating the total daily feed required for the flock.\n\n---\n\n### Step 1: Calculate Total Daily Feed\n\nWendi has a flock of **20 chickens**, and each chicken is fed **3 cups of feed per day**. Therefore, the total feed required per day is:\n\n$$\n\\text{Total daily feed} = 20 \\text{ chickens} \\times 3 \\text{ cups per chicken} = 60 \\text{ cups}\n$$\n\n---\n\n### Step 2: Determine Feed Given in Morning and Afternoon\n\nShe gives:\n\n- **Morning**: 15 cups  \n- **Afternoon**: 25 cups  \n\nSo, the total feed given in the first two meals is:\n\n$$\n15 + 25 = 40 \\text{ cups}\n$$\n\n---\n\n### Step 3: Calculate Remaining Feed for the Final Meal\n\nSubtract the feed given in the first two meals from the total daily feed to find how much is left for the final meal:\n\n$$\n60 - 40 = 20 \\text{ cups}\n$$\n\n---\n\n### Final Answer\n\n$$\n\\boxed{20}\n$$",
+      "pda_answer": 20.0,
+      "pda_correct": true,
+      "pda_worker_answers": [
+        20.0,
+        20.0,
+        20.0
+      ],
+      "pda_merge_response": "All three solutions correctly calculate the total daily feed required for Wendi's flock (20 chickens \u00d7 3 cups = 60 cups), subtract the feed given in the morning (15 cups) and afternoon (25 cups) to determine the remaining feed needed for the final meal (60 - 40 = 20 cups). The reasoning is consistent across all solutions, and there are no mathematical errors. \n\n#### 20"
+    }
+  ]
+}

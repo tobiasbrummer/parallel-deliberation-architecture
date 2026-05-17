@@ -1,0 +1,846 @@
+Loading MMLU-Pro...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Running on 200 questions (seed 42)
+
+[1/200] (computer science) Q: Bob writes down a number between 1 and 1,000. Mary must iden...
+  GT: I
+  Baseline: I OK
+  PDA:      I OK
+  Workers:  ['I', 'I', 'I']
+  Running: B 1/1 (100.0%) | PDA 1/1 (100.0%)
+
+[2/200] (law) Q: A supplier of ink for printers sent the following letter to ...
+  GT: D
+  Baseline: I WRONG
+  PDA:      I WRONG
+  Workers:  ['B', 'B', 'I']
+  Running: B 1/2 (50.0%) | PDA 1/2 (50.0%)
+
+[3/200] (business) Q: Peter bought a typewriter for $125, less a 5% discount. The ...
+  GT: D
+  Baseline: D OK
+  PDA:      D OK
+  Workers:  ['D', 'D', 'D']
+  Running: B 2/3 (66.7%) | PDA 2/3 (66.7%)
+
+[4/200] (chemistry) Q: Using the tables of standard electrode potentials, arrange t...
+  GT: I
+  Baseline: I OK
+  PDA:      I OK
+  Workers:  ['A', 'I', 'G']
+  Running: B 3/4 (75.0%) | PDA 3/4 (75.0%)
+
+[5/200] (chemistry) Q: The gypsy moth produces a natural attractant, C_18H_34O_3. I...
+  GT: I
+  Baseline: I OK
+  PDA:      I OK
+  Workers:  ['I', 'I', 'I']
+  Running: B 4/5 (80.0%) | PDA 4/5 (80.0%)
+
+[6/200] (chemistry) Q: Liquid nitrogen is an excellent bath for keeping temperature...
+  GT: B
+  Baseline: B OK
+  PDA:      B OK
+  Workers:  ['B', 'B', 'B']
+  Running: B 5/6 (83.3%) | PDA 5/6 (83.3%)
+
+[7/200] (psychology) Q: A student has recently completed a dissertation and is submi...
+  GT: A
+  Baseline: A OK
+  PDA:      A OK
+  Workers:  ['G', 'A', 'A']
+  Running: B 6/7 (85.7%) | PDA 6/7 (85.7%)
+
+[8/200] (law) Q: On May 2, a woman mailed the following letter to a man:"May ...
+  GT: B
+  Baseline: B OK
+  PDA:      B OK
+  Workers:  ['B', 'B', 'B']
+  Running: B 7/8 (87.5%) | PDA 7/8 (87.5%)
+
+[9/200] (engineering) Q: A certain load to be driven at 1750 r/min requires a torque ...
+  GT: B
+  Baseline: B OK
+  PDA:      B OK
+  Workers:  ['B', 'B', 'B']
+  Running: B 8/9 (88.9%) | PDA 8/9 (88.9%)
+
+[10/200] (physics) Q: The difference between dc and ac in electric circuits is tha...
+  GT: J
+  Baseline: J OK
+  PDA:      J OK
+  Workers:  ['I', 'J', 'J']
+  Running: B 9/10 (90.0%) | PDA 9/10 (90.0%)
+
+[11/200] (law) Q: At 10:00p. m. onNovember 14, a driver was operating his auto...
+  GT: I
+  Baseline: J WRONG
+  PDA:      J WRONG
+  Workers:  ['J', 'A', 'J']
+  Running: B 9/11 (81.8%) | PDA 9/11 (81.8%)
+
+[12/200] (physics) Q: When focused on a star, the distance of the eye lens of a si...
+  GT: A
+  Baseline: A OK
+  PDA:      A OK
+  Workers:  ['A', 'A', 'A']
+  Running: B 10/12 (83.3%) | PDA 10/12 (83.3%)
+
+[13/200] (economics) Q: What do we mean when we say that the farm problem may be cor...
+  GT: J
+  Baseline: J OK
+  PDA:      J OK
+  Workers:  ['J', 'J', 'J']
+  Running: B 11/13 (84.6%) | PDA 11/13 (84.6%)
+
+[14/200] (business) Q: Using the table below , find the federal income tax for Jerr...
+  GT: D
+  Baseline: D OK
+  PDA:      D OK
+  Workers:  ['D', 'D', 'D']
+  Running: B 12/14 (85.7%) | PDA 12/14 (85.7%)
+
+[15/200] (business) Q: AlforsMotors is purchasing some new European cars which are ...
+  GT: D
+  Baseline: D OK
+  PDA:      D OK
+  Workers:  ['D', 'A', 'D']
+  Running: B 13/15 (86.7%) | PDA 13/15 (86.7%)
+
+[16/200] (law) Q: A company created a new brand of pies. However, a study by t...
+  GT: A
+  Baseline: E WRONG
+  PDA:      E WRONG
+  Workers:  ['E', 'E', 'E']
+  Running: B 13/16 (81.2%) | PDA 13/16 (81.2%)
+
+[17/200] (chemistry) Q: TheRydberg- Ritz equation governing the spectral lines of hy...
+  GT: J
+  Baseline: J OK
+  PDA:      J OK
+  Workers:  ['J', 'J', 'J']
+  Running: B 14/17 (82.4%) | PDA 14/17 (82.4%)
+
+[18/200] (chemistry) Q: Glucose-1-phosphate, essential to the metabolism of carbohyd...
+  GT: A
+  Baseline: A OK
+  PDA:      A OK
+  Workers:  ['A', 'A', 'A']
+  Running: B 15/18 (83.3%) | PDA 15/18 (83.3%)
+
+[19/200] (math) Q: A group of hikers climbed from Salt Flats (elevation −55 fee...
+  GT: C
+  Baseline: C OK
+  PDA:      C OK
+  Workers:  ['C', 'C', 'C']
+  Running: B 16/19 (84.2%) | PDA 16/19 (84.2%)
+
+[20/200] (physics) Q: The speed of sound is slightly greater on a...
+  GT: E
+  Baseline: E OK
+  PDA:      E OK
+  Workers:  ['E', 'E', 'E']
+  Running: B 17/20 (85.0%) | PDA 17/20 (85.0%)
+
+[21/200] (business) Q: Company A is currently trading at $150 per share, and earnin...
+  GT: A
+  Baseline: A OK
+  PDA:      A OK
+  Workers:  ['A', 'A', 'A']
+  Running: B 18/21 (85.7%) | PDA 18/21 (85.7%)
+
+[22/200] (physics) Q: What is the impedance of a 1-henry inductor at angular frequ...
+  GT: H
+  Baseline: B WRONG
+  PDA:      B WRONG
+  Workers:  ['B', 'B', 'B']
+  Running: B 18/22 (81.8%) | PDA 18/22 (81.8%)
+
+[23/200] (biology) Q: In a hypothetical environment, fishes called pike-cichlids a...
+  GT: A
+  Baseline: D WRONG
+  PDA:      D WRONG
+  Workers:  ['D', 'D', 'D']
+  Running: B 18/23 (78.3%) | PDA 18/23 (78.3%)
+
+[24/200] (engineering) Q: Air entering a tube of diameter 5.08cm (2 in.) is at 1 atm. ...
+  GT: D
+  Baseline: D OK
+  PDA:      G WRONG
+  Workers:  ['J', 'G', 'J']
+  Running: B 19/24 (79.2%) | PDA 18/24 (75.0%)
+
+[25/200] (philosophy) Q:  Select the best English interpretation of the given argumen...
+  GT: C
+  Baseline: C OK
+  PDA:      C OK
+  Workers:  ['C', 'C', 'C']
+  Running: B 20/25 (80.0%) | PDA 19/25 (76.0%)
+
+[26/200] (engineering) Q: A 360° journal bearing 3 in.long,carries a 4 in. diameter sh...
+  GT: J
+  Baseline: J OK
+  PDA:      D WRONG
+  Workers:  ['G', 'D', 'D']
+  Running: B 21/26 (80.8%) | PDA 19/26 (73.1%)
+
+[27/200] (physics) Q: A heavy rock and a light rock in free fall (zero air resista...
+  GT: F
+  Baseline: F OK
+  PDA:      F OK
+  Workers:  ['F', 'F', 'F']
+  Running: B 22/27 (81.5%) | PDA 20/27 (74.1%)
+
+[28/200] (economics) Q: Marginal cost (MC) is equal to average variable cost (AVC) a...
+  GT: H
+  Baseline: H OK
+  PDA:      H OK
+  Workers:  ['H', 'H', 'H']
+  Running: B 23/28 (82.1%) | PDA 21/28 (75.0%)
+
+[29/200] (chemistry) Q: Assume all gases are perfect unless stated otherwise. Note t...
+  GT: I
+  Baseline: I OK
+  PDA:      I OK
+  Workers:  ['I', 'I', 'I']
+  Running: B 24/29 (82.8%) | PDA 22/29 (75.9%)
+
+[30/200] (economics) Q: Suppose an American firm sells a large piece of machinery to...
+  GT: A
+  Baseline: A OK
+  PDA:      A OK
+  Workers:  ['A', 'A', 'A']
+  Running: B 25/30 (83.3%) | PDA 23/30 (76.7%)
+
+[31/200] (physics) Q: Assume the half-life of the proton is 10^33 years. How many ...
+  GT: G
+  Baseline: G OK
+  PDA:      G OK
+  Workers:  ['G', 'G', 'A']
+  Running: B 26/31 (83.9%) | PDA 24/31 (77.4%)
+
+[32/200] (history) Q: This question refers to the following information.
+Read the ...
+  GT: H
+  Baseline: G WRONG
+  PDA:      A WRONG
+  Workers:  ['A', 'G', 'G']
+  Running: B 26/32 (81.2%) | PDA 24/32 (75.0%)
+
+[33/200] (business) Q: John Wilson retired at age 62 with average yearly earnings o...
+  GT: D
+  Baseline: A WRONG
+  PDA:      D OK
+  Workers:  ['D', 'D', 'A']
+  Running: B 26/33 (78.8%) | PDA 25/33 (75.8%)
+
+[34/200] (psychology) Q: One's ability to make inferences about the behavior of a pop...
+  GT: D
+  Baseline: D OK
+  PDA:      D OK
+  Workers:  ['D', 'D', 'D']
+  Running: B 27/34 (79.4%) | PDA 26/34 (76.5%)
+
+[35/200] (engineering) Q: Air inside a chamber is heated from an initial volume and pr...
+  GT: B
+  Baseline: B OK
+  PDA:      B OK
+  Workers:  ['B', 'A', 'B']
+  Running: B 28/35 (80.0%) | PDA 27/35 (77.1%)
+
+[36/200] (economics) Q: Why is it that in the United States, labor constitutes the s...
+  GT: I
+  Baseline: B WRONG
+  PDA:      B WRONG
+  Workers:  ['E', 'B', 'I']
+  Running: B 28/36 (77.8%) | PDA 27/36 (75.0%)
+
+[37/200] (other) Q: A 2008 survey showed that what percentage of the world's lar...
+  GT: E
+  Baseline: B WRONG
+  PDA:      B WRONG
+  Workers:  ['B', 'F', 'C']
+  Running: B 28/37 (75.7%) | PDA 27/37 (73.0%)
+
+[38/200] (history) Q: This question refers to the following information.
+Now, we h...
+  GT: F
+  Baseline: D WRONG
+  PDA:      D WRONG
+  Workers:  ['D', 'D', 'D']
+  Running: B 28/38 (73.7%) | PDA 27/38 (71.1%)
+
+[39/200] (psychology) Q: While driving to school, Elise hears about a concert ticket ...
+  GT: A
+  Baseline: A OK
+  PDA:      A OK
+  Workers:  ['A', 'A', 'A']
+  Running: B 29/39 (74.4%) | PDA 28/39 (71.8%)
+
+[40/200] (chemistry) Q: Two narrow slits separated by $0.10 \mathrm{~mm}$ are illumi...
+  GT: F
+  Baseline: F OK
+  PDA:      F OK
+  Workers:  ['F', 'F', 'F']
+  Running: B 30/40 (75.0%) | PDA 29/40 (72.5%)
+
+[41/200] (other) Q: What is the 'security dilemma' that faces weak states?...
+  GT: A
+  Baseline: A OK
+  PDA:      A OK
+  Workers:  ['A', 'A', 'A']
+  Running: B 31/41 (75.6%) | PDA 30/41 (73.2%)
+
+[42/200] (law) Q: A farmer owned a 40-acre tract of farmland located in a smal...
+  GT: H
+  Baseline: H OK
+  PDA:      H OK
+  Workers:  ['H', 'H', 'H']
+  Running: B 32/42 (76.2%) | PDA 31/42 (73.8%)
+
+[43/200] (law) Q: A condominium development consists of two buildings, one wit...
+  GT: C
+  Baseline: C OK
+  PDA:      G WRONG
+  Workers:  ['G', 'G', 'G']
+  Running: B 33/43 (76.7%) | PDA 31/43 (72.1%)
+
+[44/200] (health) Q: A deficiency of which vitamin has been associated with ename...
+  GT: A
+  Baseline: A OK
+  PDA:      F WRONG
+  Workers:  ['F', 'A', 'A']
+  Running: B 34/44 (77.3%) | PDA 31/44 (70.5%)
+
+[45/200] (law) Q: An appliance store was using part of a public alley to unloa...
+  GT: J
+  Baseline: E WRONG
+  PDA:      J OK
+  Workers:  ['J', 'J', 'J']
+  Running: B 34/45 (75.6%) | PDA 32/45 (71.1%)
+
+[46/200] (health) Q: A 25-year-old man is brought to the emergency department bec...
+  GT: B
+  Baseline: B OK
+  PDA:      B OK
+  Workers:  ['B', 'B', 'B']
+  Running: B 35/46 (76.1%) | PDA 33/46 (71.7%)
+
+[47/200] (other) Q: The dominant course for foreign policy throughout most of Am...
+  GT: A
+  Baseline: A OK
+  PDA:      E WRONG
+  Workers:  ['A', 'E', 'E']
+  Running: B 36/47 (76.6%) | PDA 33/47 (70.2%)
+
+[48/200] (physics) Q: What is the percentage of angular magnification when one vie...
+  GT: J
+  Baseline: J OK
+  PDA:      J OK
+  Workers:  ['A', 'J', 'J']
+  Running: B 37/48 (77.1%) | PDA 34/48 (70.8%)
+
+[49/200] (chemistry) Q: An equilibrium solution of the complex ion Ag(NH_3)_2^+ cont...
+  GT: D
+  Baseline: D OK
+  PDA:      D OK
+  Workers:  ['D', 'D', 'A']
+  Running: B 38/49 (77.6%) | PDA 35/49 (71.4%)
+
+[50/200] (business) Q: Good-day Tire Company wishes to find out its cost per tire. ...
+  GT: J
+  Baseline: J OK
+  PDA:      J OK
+  Workers:  ['J', 'J', 'J']
+  Running: B 39/50 (78.0%) | PDA 36/50 (72.0%)
+
+[51/200] (engineering) Q: Benzene andiso-pentane are mixed at 1.5 atm. and 110°F. Dete...
+  GT: H
+  Baseline: E WRONG
+  PDA:      H OK
+  Workers:  ['H', 'H', 'H']
+  Running: B 39/51 (76.5%) | PDA 37/51 (72.5%)
+
+[52/200] (math) Q: What number multiplied by 4 equals 36?...
+  GT: F
+  Baseline: F OK
+  PDA:      F OK
+  Workers:  ['F', 'F', 'F']
+  Running: B 40/52 (76.9%) | PDA 38/52 (73.1%)
+
+[53/200] (math) Q: Let A and B be sets, f: A -> B and g: B -> A be functions su...
+  GT: C
+  Baseline: C OK
+  PDA:      C OK
+  Workers:  ['C', 'C', 'C']
+  Running: B 41/53 (77.4%) | PDA 39/53 (73.6%)
+
+[54/200] (psychology) Q: TYPE II ERROR is the failure to reject a false null hypothes...
+  GT: C
+  Baseline: C OK
+  PDA:      C OK
+  Workers:  ['C', 'C', 'C']
+  Running: B 42/54 (77.8%) | PDA 40/54 (74.1%)
+
+[55/200] (health) Q: A 27-year-old man is admitted to the hospital 45 minutes aft...
+  GT: A
+  Baseline: A OK
+  PDA:      A OK
+  Workers:  ['A', 'A', 'A']
+  Running: B 43/55 (78.2%) | PDA 41/55 (74.5%)
+
+[56/200] (law) Q: Which State ordinarily exercises jurisdiction in respect of ...
+  GT: I
+  Baseline: I OK
+  PDA:      I OK
+  Workers:  ['I', 'I', 'I']
+  Running: B 44/56 (78.6%) | PDA 42/56 (75.0%)
+
+[57/200] (physics) Q: A particle of charge $+3.00 \times 10^{-6} \mathrm{C}$ is $1...
+  GT: H
+  Baseline: H OK
+  PDA:      H OK
+  Workers:  ['H', 'H', 'H']
+  Running: B 45/57 (78.9%) | PDA 43/57 (75.4%)
+
+[58/200] (history) Q: This question refers to the following information.
+"Wherever...
+  GT: F
+  Baseline: D WRONG
+  PDA:      G WRONG
+  Workers:  ['D', 'G', 'D']
+  Running: B 45/58 (77.6%) | PDA 43/58 (74.1%)
+
+[59/200] (computer science) Q: Explain the TRAILER CARD method of stopping a computer job, ...
+  GT: F
+  Baseline: F OK
+  PDA:      F OK
+  Workers:  ['F', 'F', 'F']
+  Running: B 46/59 (78.0%) | PDA 44/59 (74.6%)
+
+[60/200] (physics) Q: The magnetic field lines about a current-carrying wire form...
+  GT: H
+  Baseline: H OK
+  PDA:      H OK
+  Workers:  ['H', 'H', 'H']
+  Running: B 47/60 (78.3%) | PDA 45/60 (75.0%)
+
+[61/200] (health) Q: How long can a cannula remain in situ?...
+  GT: A
+  Baseline: F WRONG
+  PDA:      F WRONG
+  Workers:  ['A', 'A', 'F']
+  Running: B 47/61 (77.0%) | PDA 45/61 (73.8%)
+
+[62/200] (physics) Q: A student drops a water-filled balloon from the roof of the ...
+  GT: A
+  Baseline: A OK
+  PDA:      A OK
+  Workers:  ['A', 'A', 'A']
+  Running: B 48/62 (77.4%) | PDA 46/62 (74.2%)
+
+[63/200] (biology) Q: Which of the following statements concerning a sarcomere of ...
+  GT: H
+  Baseline: H OK
+  PDA:      H OK
+  Workers:  ['H', 'H', 'H']
+  Running: B 49/63 (77.8%) | PDA 47/63 (74.6%)
+
+[64/200] (engineering) Q: The nonlinear characteristic of a capacitor is given by q(t)...
+  GT: G
+  Baseline: G OK
+  PDA:      G OK
+  Workers:  ['G', 'G', 'G']
+  Running: B 50/64 (78.1%) | PDA 48/64 (75.0%)
+
+[65/200] (law) Q: In June a computer retailer ordered 100 computers, with vari...
+  GT: H
+  Baseline: J WRONG
+  PDA:      G WRONG
+  Workers:  ['F', 'G', 'A']
+  Running: B 50/65 (76.9%) | PDA 48/65 (73.8%)
+
+[66/200] (business) Q:  Four competing philosophies strongly influence the role of ...
+  GT: E
+  Baseline: B WRONG
+  PDA:      B WRONG
+  Workers:  ['B', 'B', 'B']
+  Running: B 50/66 (75.8%) | PDA 48/66 (72.7%)
+
+[67/200] (philosophy) Q:  Lukianoff and Haidt argue that American colleges and univer...
+  GT: B
+  Baseline: A WRONG
+  PDA:      A WRONG
+  Workers:  ['A', 'A', 'A']
+  Running: B 50/67 (74.6%) | PDA 48/67 (71.6%)
+
+[68/200] (chemistry) Q: Of the several ways in which the supersonic transport (SST) ...
+  GT: G
+  Baseline: G OK
+  PDA:      G OK
+  Workers:  ['G', 'G', 'G']
+  Running: B 51/68 (75.0%) | PDA 49/68 (72.1%)
+
+[69/200] (history) Q: This question refers to the following information.
+"If any p...
+  GT: G
+  Baseline: G OK
+  PDA:      G OK
+  Workers:  ['G', 'G', 'G']
+  Running: B 52/69 (75.4%) | PDA 50/69 (72.5%)
+
+[70/200] (law) Q: A doctor who was licensed to practice medicine in a particul...
+  GT: B
+  Baseline: E WRONG
+  PDA:      E WRONG
+  Workers:  ['E', 'E', 'E']
+  Running: B 52/70 (74.3%) | PDA 50/70 (71.4%)
+
+[71/200] (chemistry) Q: Lemon juice is very acidic, having a pH of 2.1. If we assume...
+  GT: A
+  Baseline: A OK
+  PDA:      A OK
+  Workers:  ['A', 'A', 'A']
+  Running: B 53/71 (74.6%) | PDA 51/71 (71.8%)
+
+[72/200] (law) Q: A brick mason was hired by a builder under a written one-yea...
+  GT: B
+  Baseline: E WRONG
+  PDA:      E WRONG
+  Workers:  ['E', 'E', 'E']
+  Running: B 53/72 (73.6%) | PDA 51/72 (70.8%)
+
+[73/200] (health) Q: Picornavirus replication as a positive strand RNA virus is p...
+  GT: C
+  Baseline: B WRONG
+  PDA:      B WRONG
+  Workers:  ['B', 'B', 'B']
+  Running: B 53/73 (72.6%) | PDA 51/73 (69.9%)
+
+[74/200] (history) Q: This question refers to the following information.
+"The ques...
+  GT: J
+  Baseline: J OK
+  PDA:      J OK
+  Workers:  ['J', 'J', 'J']
+  Running: B 54/74 (73.0%) | PDA 52/74 (70.3%)
+
+[75/200] (economics) Q: What is the purpose of the National Accounts?...
+  GT: E
+  Baseline: E OK
+  PDA:      E OK
+  Workers:  ['E', 'E', 'E']
+  Running: B 55/75 (73.3%) | PDA 53/75 (70.7%)
+
+[76/200] (computer science) Q: Which of the following conditions can be expressed by a Bool...
+  GT: G
+  Baseline: G OK
+  PDA:      G OK
+  Workers:  ['G', 'G', 'I']
+  Running: B 56/76 (73.7%) | PDA 54/76 (71.1%)
+
+[77/200] (health) Q: Which of the following is thought to be implicated in the de...
+  GT: D
+  Baseline: D OK
+  PDA:      D OK
+  Workers:  ['D', 'D', 'D']
+  Running: B 57/77 (74.0%) | PDA 55/77 (71.4%)
+
+[78/200] (psychology) Q: The superintendent of a large school district asks the schoo...
+  GT: F
+  Baseline: F OK
+  PDA:      F OK
+  Workers:  ['F', 'F', 'F']
+  Running: B 58/78 (74.4%) | PDA 56/78 (71.8%)
+
+[79/200] (health) Q: Examination of a patient indicates that they have a medially...
+  GT: F
+  Baseline: F OK
+  PDA:      F OK
+  Workers:  ['F', 'F', 'F']
+  Running: B 59/79 (74.7%) | PDA 57/79 (72.2%)
+
+[80/200] (other) Q: Which of the following is a true statement about the flow of...
+  GT: J
+  Baseline: J OK
+  PDA:      J OK
+  Workers:  ['J', 'J', 'J']
+  Running: B 60/80 (75.0%) | PDA 58/80 (72.5%)
+
+[81/200] (chemistry) Q: The mean temperature of the earth's surface is $288 \mathrm{...
+  GT: G
+  Baseline: G OK
+  PDA:      G OK
+  Workers:  ['G', 'G', 'G']
+  Running: B 61/81 (75.3%) | PDA 59/81 (72.8%)
+
+[82/200] (philosophy) Q:  With respect to the issue of world hunger and poverty, Arth...
+  GT: E
+  Baseline: E OK
+  PDA:      E OK
+  Workers:  ['E', 'E', 'J']
+  Running: B 62/82 (75.6%) | PDA 60/82 (73.2%)
+
+[83/200] (chemistry) Q: A liquid element that is a dark-colored, nonconducting subst...
+  GT: C
+  Baseline: C OK
+  PDA:      C OK
+  Workers:  ['C', 'C', 'C']
+  Running: B 63/83 (75.9%) | PDA 61/83 (73.5%)
+
+[84/200] (engineering) Q: Two antennas, 48 km apart, have transmitting and receiving g...
+  GT: F
+  Baseline: F OK
+  PDA:      F OK
+  Workers:  ['F', 'F', 'F']
+  Running: B 64/84 (76.2%) | PDA 62/84 (73.8%)
+
+[85/200] (engineering) Q: A frequency modulated wave has an angular carrier frequency\...
+  GT: F
+  Baseline: F OK
+  PDA:      F OK
+  Workers:  ['F', 'F', 'F']
+  Running: B 65/85 (76.5%) | PDA 63/85 (74.1%)
+
+[86/200] (philosophy) Q:  An unborn vertebrate animal that has developed to the point...
+  GT: G
+  Baseline: B WRONG
+  PDA:      B WRONG
+  Workers:  ['B', 'B', 'B']
+  Running: B 65/86 (75.6%) | PDA 63/86 (73.3%)
+
+[87/200] (law) Q: A foreign visitor was on trial for kidnapping a small child....
+  GT: F
+  Baseline: F OK
+  PDA:      F OK
+  Workers:  ['F', 'F', 'F']
+  Running: B 66/87 (75.9%) | PDA 64/87 (73.6%)
+
+[88/200] (physics) Q: Compute the mean molecular speed v in the heavy gas radon (R...
+  GT: B
+  Baseline: B OK
+  PDA:      B OK
+  Workers:  ['B', 'B', 'B']
+  Running: B 67/88 (76.1%) | PDA 65/88 (73.9%)
+
+[89/200] (computer science) Q: A cascade of $n$ identical independent binary symmetric chan...
+  GT: B
+  Baseline: B OK
+  PDA:      B OK
+  Workers:  ['B', 'B', 'B']
+  Running: B 68/89 (76.4%) | PDA 66/89 (74.2%)
+
+[90/200] (biology) Q: What was the prevailing notion prior to the time of Lyell an...
+  GT: D
+  Baseline: D OK
+  PDA:      D OK
+  Workers:  ['D', 'D', 'D']
+  Running: B 69/90 (76.7%) | PDA 67/90 (74.4%)
+
+[91/200] (math) Q: What is the minimum number of people needed in a room to gua...
+  GT: A
+  Baseline: A OK
+  PDA:      A OK
+  Workers:  ['A', 'A', 'A']
+  Running: B 70/91 (76.9%) | PDA 68/91 (74.7%)
+
+[92/200] (engineering) Q: Consider an example of forced convection within a pipe. The ...
+  GT: B
+  Baseline: B OK
+  PDA:      H WRONG
+  Workers:  ['H', 'H', 'H']
+  Running: B 71/92 (77.2%) | PDA 68/92 (73.9%)
+
+[93/200] (chemistry) Q: Consider the formation of an ionic molecule, AB, by the dona...
+  GT: J
+  Baseline: J OK
+  PDA:      J OK
+  Workers:  ['J', 'J', 'J']
+  Running: B 72/93 (77.4%) | PDA 69/93 (74.2%)
+
+[94/200] (psychology) Q: What is the distinction between an aptitude test and an achi...
+  GT: D
+  Baseline: D OK
+  PDA:      D OK
+  Workers:  ['D', 'D', 'D']
+  Running: B 73/94 (77.7%) | PDA 70/94 (74.5%)
+
+[95/200] (math) Q: Does the following series $\sum_{i=0}^{\infty} \frac{n!}{n^2...
+  GT: H
+  Baseline: D WRONG
+  PDA:      D WRONG
+  Workers:  ['D', 'D', 'D']
+  Running: B 73/95 (76.8%) | PDA 70/95 (73.7%)
+
+[96/200] (health) Q: Which vitamin is required for calcium absorption from the sm...
+  GT: D
+  Baseline: D OK
+  PDA:      D OK
+  Workers:  ['D', 'D', 'D']
+  Running: B 74/96 (77.1%) | PDA 71/96 (74.0%)
+
+[97/200] (chemistry) Q: At 393.7°C, the second-rate constant for the decomposition o...
+  GT: H
+  Baseline: D WRONG
+  API error: Expecting value: line 981 column 1 (char 5390)
+  PDA:      H OK
+  Workers:  ['J', 'A', None]
+  Running: B 74/97 (76.3%) | PDA 72/97 (74.2%)
+
+[98/200] (computer science) Q: Buffer-overflow may remain as a bug in apps if __________ ar...
+  GT: G
+  Baseline: G OK
+  PDA:      G OK
+  Workers:  ['G', 'G', 'G']
+  Running: B 75/98 (76.5%) | PDA 73/98 (74.5%)
+
+[99/200] (engineering) Q: For the zero-memory information source described by the tabl...
+  GT: A
+  Baseline: A OK
+  PDA:      A OK
+  Workers:  ['A', 'A', 'A']
+  Running: B 76/99 (76.8%) | PDA 74/99 (74.7%)
+
+[100/200] (physics) Q: The distance of your image behind a plane mirror is equal to...
+  GT: B
+  Baseline: B OK
+  PDA:      B OK
+  Workers:  ['B', 'B', 'B']
+  Running: B 77/100 (77.0%) | PDA 75/100 (75.0%)
+
+[101/200] (chemistry) Q: A proposed mechanism for a reaction is as follows: NO2 + F2 ...
+  GT: B
+  Baseline: B OK
+  PDA:      B OK
+  Workers:  ['B', 'B', 'B']
+  Running: B 78/101 (77.2%) | PDA 76/101 (75.2%)
+
+[102/200] (engineering) Q: Ethane reacts with astoichiometricamount of air by the follo...
+  GT: J
+  Baseline: C WRONG
+  PDA:      G WRONG
+  Workers:  ['G', 'J', 'G']
+  Running: B 78/102 (76.5%) | PDA 76/102 (74.5%)
+
+[103/200] (other) Q: Which of the following is a renewable energy source?...
+  GT: B
+  Baseline: B OK
+  PDA:      B OK
+  Workers:  ['B', 'B', 'B']
+  Running: B 79/103 (76.7%) | PDA 77/103 (74.8%)
+
+[104/200] (law) Q: In 1888, a landowner owned a dairy farm. The landowner conve...
+  GT: H
+  Baseline: F WRONG
+  PDA:      B WRONG
+  Workers:  ['B', 'F', 'J']
+  Running: B 79/104 (76.0%) | PDA 77/104 (74.0%)
+
+[105/200] (chemistry) Q: Under what conditions will a pure sample of an ideal gas not...
+  GT: B
+  Baseline: A WRONG
+  PDA:      B OK
+  Workers:  ['B', 'B', 'B']
+  Running: B 79/105 (75.2%) | PDA 78/105 (74.3%)
+
+[106/200] (business) Q: Pauline Key earns $3.50 per hour. She is paid time and a hal...
+  GT: F
+  Baseline: F OK
+  PDA:      F OK
+  Workers:  ['F', 'F', 'F']
+  Running: B 80/106 (75.5%) | PDA 79/106 (74.5%)
+
+[107/200] (other) Q: Different less developed countries have different levels of ...
+  GT: I
+  Baseline: I OK
+  PDA:      I OK
+  Workers:  ['C', 'I', 'I']
+  Running: B 81/107 (75.7%) | PDA 80/107 (74.8%)
+
+[108/200] (health) Q: Identity refers to one's...
+  GT: E
+  Baseline: E OK
+  PDA:      E OK
+  Workers:  ['E', 'E', 'E']
+  Running: B 82/108 (75.9%) | PDA 81/108 (75.0%)
+
+[109/200] (chemistry) Q: A swimmer enters a gloomier world (in one sense) on diving t...
+  GT: I
+  Baseline: D WRONG
+  PDA:      D WRONG
+  Workers:  ['D', 'D', 'D']
+  Running: B 82/109 (75.2%) | PDA 81/109 (74.3%)
+
+[110/200] (law) Q: A new gang member, hoping to impress the gang's leader, poin...
+  GT: I
+  Baseline: F WRONG
+  PDA:      D WRONG
+  Workers:  ['F', 'D', 'E']
+  Running: B 82/110 (74.5%) | PDA 81/110 (73.6%)
+
+[111/200] (chemistry) Q: What is the explanation for the following trends inlattice e...
+  GT: F
+  Baseline: F OK
+  PDA:      F OK
+  Workers:  ['F', 'F', 'F']
+  Running: B 83/111 (74.8%) | PDA 82/111 (73.9%)
+
+[112/200] (physics) Q: At 20°C, a pipe open at both ends resonates at a frequency o...
+  GT: A
+  Baseline: A OK
+  PDA:      A OK
+  Workers:  ['A', 'A', 'A']
+  Running: B 84/112 (75.0%) | PDA 83/112 (74.1%)
+
+[113/200] (engineering) Q: A liquid-propellant rocket uses 22 lb of fuel per second and...
+  GT: F
+  Baseline: F OK
+  PDA:      F OK
+  Workers:  ['F', 'F', 'F']
+  Running: B 85/113 (75.2%) | PDA 84/113 (74.3%)
+
+[114/200] (other) Q: Walt Disney, Sony and Time Warner are examples of:...
+  GT: F
+  Baseline: H WRONG
+  PDA:      H WRONG
+  Workers:  ['H', 'H', 'H']
+  Running: B 85/114 (74.6%) | PDA 84/114 (73.7%)
+
+[115/200] (chemistry) Q: In a chemical reaction requiring two atoms of phosphorus for...
+  GT: C
+  Baseline: C OK
+  PDA:      C OK
+  Workers:  ['C', 'C', 'C']
+  Running: B 86/115 (74.8%) | PDA 85/115 (73.9%)
+
+[116/200] (philosophy) Q: Select the best translation into predicate logic: Abdul and ...
+  GT: A
+  Baseline: A OK
+  PDA:      A OK
+  Workers:  ['A', 'A', 'A']
+  Running: B 87/116 (75.0%) | PDA 86/116 (74.1%)
+
+[117/200] (math) Q: Which pair of expressions below are equivalent?...
+  GT: D
+  Baseline: D OK
+  PDA:      D OK
+  Workers:  ['D', 'D', 'D']
+  Running: B 88/117 (75.2%) | PDA 87/117 (74.4%)
+
+[118/200] (health) Q: Walking down a street late at night, an adult male pedestria...
+  GT: B
+  Baseline: B OK
+  PDA:      B OK
+  Workers:  ['B', 'B', 'B']
+  Running: B 89/118 (75.4%) | PDA 88/118 (74.6%)
+
+[119/200] (computer science) Q: In a CSMA/CD network with a data rate of 10 Mbps, the minimu...
+  GT: E
+  Baseline: E OK
+  PDA:      E OK
+  Workers:  ['E', 'E', 'E']
+  Running: B 90/119 (75.6%) | PDA 89/119 (74.8%)
+
+[120/200] (math) Q: Two dice are rolled simultaneously. If both dice show 6, the...
+  GT: A
+  Baseline: A OK
