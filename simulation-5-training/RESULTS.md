@@ -35,7 +35,53 @@ The model doesn't learn "the answer to X is Y" -- it learns "before answering,
 consider the problem from systematic, creative, and critical angles." This
 generalizes because the cognitive strategy is domain-independent.
 
-## Next: Sim 5c — Perspective Count Sweep
+## Sim 5c -- PDA vs CoT Distillation Control
+
+Sim 5c was originally planned as a "perspective count sweep" (see below).
+That plan was set aside in favour of a control that the Sim 5b numbers
+above needed: **how much of the +44.5 / +72.0 / +4.5 pp improvement is
+from PDA specifically vs from reasoning-distillation in general?**
+
+To answer this, the same Qwen3-1.7B base was QLoRA-distilled from the same
+~830-example teacher dataset under two conditions:
+- **PDA**: training traces from a Qwen3-8B teacher run as 3 PDA workers + merge
+- **CoT**: training traces from the same Qwen3-8B teacher run as plain
+  chain-of-thought (single pass)
+
+Same student, same QLoRA hyperparameters (r=16, 3 epochs), same eval set.
+
+| Benchmark      | Base   | CoT-distilled | PDA-distilled | PDA vs Base | PDA vs CoT |
+|----------------|--------|---------------|---------------|-------------|------------|
+| GSM8K          | 15.5%  | 42.5%         | 56.5%         | +41.0pp     | **+14.0pp** |
+| ARC-Challenge  | 0.5%   | 71.0%         | 74.0%         | +73.5pp     | **+3.0pp**  |
+| MATH           | 0.0%   | 8.0%          | 7.0%          | +7.0pp      | **-1.0pp**  |
+
+Source: `sim5c_results.json`. Note that the PDA numbers in this run are
+slightly different from the Sim 5b headline (training data size 834 vs 830,
+different seed) -- the PDA-vs-CoT comparison is the apples-to-apples
+contrast.
+
+### Interpretation
+
+**Most of the headline improvement is reasoning-distillation in general.**
+CoT-distilled gets GSM8K 42.5%, ARC-C 71.0%, MATH 8.0% -- the bulk of the
+jump from the 15.5/0.5/0.0 base. PDA distillation adds another +14pp on
+GSM8K and +3pp on ARC-C on top of that, and is -1pp on MATH (within noise
+for n=200).
+
+**What this means for the Sim 5b framing:** the "+72pp on ARC, +45pp on
+GSM8K" numbers vs the untrained base are real, but they over-attribute
+the gain to the multi-perspective method. The *PDA-specific* signal is
+the +14pp / +3pp / -1pp delta vs CoT-distill. That is still a positive
+signal on the two reasoning benchmarks -- the multi-perspective layer
+does add something -- but not the order of magnitude the base comparison
+suggests.
+
+This negative-as-control result is the most useful thing in Simulation 5.
+The lesson is that any "X works" claim about a fine-tuning recipe needs
+the "X vs the simpler alternative" arm before the headline.
+
+## Next: Sim 5d -- Perspective Count Sweep (original Sim 5c plan, deferred)
 
 **Question:** How many worker perspectives give the best distillation?
 

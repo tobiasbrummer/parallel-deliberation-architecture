@@ -1,0 +1,1819 @@
+{
+  "config": {
+    "model": "qwen/qwen3-8b",
+    "n": 200,
+    "seed": 42,
+    "benchmark": "MMLU-Pro",
+    "recovered_from_log": true,
+    "log_file": "sim4b_run.log",
+    "note": "Original sim4b_mmlu_pro_200.json was written with null answers because the run aborted at item 120/200 (API-cost decision). This file is the per-item data parsed back out of sim4b_run.log. The summary block uses the authoritative cumulative counts from the last 'Running:' line in the log."
+  },
+  "summary": {
+    "n_completed": 119,
+    "n_planned": 200,
+    "baseline_correct": 90,
+    "baseline_accuracy_pct": 75.6,
+    "pda_correct": 89,
+    "pda_accuracy_pct": 74.8,
+    "delta_pp": -0.8,
+    "per_item_parser_recovered": 120
+  },
+  "results": [
+    {
+      "index": 0,
+      "category": "computer science",
+      "question_prefix": "Bob writes down a number between 1 and 1,000. Mary must iden...",
+      "ground_truth": "I",
+      "baseline_answer": "I",
+      "baseline_correct": true,
+      "pda_answer": "I",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "I",
+        "I",
+        "I"
+      ]
+    },
+    {
+      "index": 1,
+      "category": "law",
+      "question_prefix": "A supplier of ink for printers sent the following letter to ...",
+      "ground_truth": "D",
+      "baseline_answer": "I",
+      "baseline_correct": false,
+      "pda_answer": "I",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "B",
+        "B",
+        "I"
+      ]
+    },
+    {
+      "index": 2,
+      "category": "business",
+      "question_prefix": "Peter bought a typewriter for $125, less a 5% discount. The ...",
+      "ground_truth": "D",
+      "baseline_answer": "D",
+      "baseline_correct": true,
+      "pda_answer": "D",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "D",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "index": 3,
+      "category": "chemistry",
+      "question_prefix": "Using the tables of standard electrode potentials, arrange t...",
+      "ground_truth": "I",
+      "baseline_answer": "I",
+      "baseline_correct": true,
+      "pda_answer": "I",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "A",
+        "I",
+        "G"
+      ]
+    },
+    {
+      "index": 4,
+      "category": "chemistry",
+      "question_prefix": "The gypsy moth produces a natural attractant, C_18H_34O_3. I...",
+      "ground_truth": "I",
+      "baseline_answer": "I",
+      "baseline_correct": true,
+      "pda_answer": "I",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "I",
+        "I",
+        "I"
+      ]
+    },
+    {
+      "index": 5,
+      "category": "chemistry",
+      "question_prefix": "Liquid nitrogen is an excellent bath for keeping temperature...",
+      "ground_truth": "B",
+      "baseline_answer": "B",
+      "baseline_correct": true,
+      "pda_answer": "B",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "index": 6,
+      "category": "psychology",
+      "question_prefix": "A student has recently completed a dissertation and is submi...",
+      "ground_truth": "A",
+      "baseline_answer": "A",
+      "baseline_correct": true,
+      "pda_answer": "A",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "G",
+        "A",
+        "A"
+      ]
+    },
+    {
+      "index": 7,
+      "category": "law",
+      "question_prefix": "On May 2, a woman mailed the following letter to a man:\"May ...",
+      "ground_truth": "B",
+      "baseline_answer": "B",
+      "baseline_correct": true,
+      "pda_answer": "B",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "index": 8,
+      "category": "engineering",
+      "question_prefix": "A certain load to be driven at 1750 r/min requires a torque ...",
+      "ground_truth": "B",
+      "baseline_answer": "B",
+      "baseline_correct": true,
+      "pda_answer": "B",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "index": 9,
+      "category": "physics",
+      "question_prefix": "The difference between dc and ac in electric circuits is tha...",
+      "ground_truth": "J",
+      "baseline_answer": "J",
+      "baseline_correct": true,
+      "pda_answer": "J",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "I",
+        "J",
+        "J"
+      ]
+    },
+    {
+      "index": 10,
+      "category": "law",
+      "question_prefix": "At 10:00p. m. onNovember 14, a driver was operating his auto...",
+      "ground_truth": "I",
+      "baseline_answer": "J",
+      "baseline_correct": false,
+      "pda_answer": "J",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "J",
+        "A",
+        "J"
+      ]
+    },
+    {
+      "index": 11,
+      "category": "physics",
+      "question_prefix": "When focused on a star, the distance of the eye lens of a si...",
+      "ground_truth": "A",
+      "baseline_answer": "A",
+      "baseline_correct": true,
+      "pda_answer": "A",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    {
+      "index": 12,
+      "category": "economics",
+      "question_prefix": "What do we mean when we say that the farm problem may be cor...",
+      "ground_truth": "J",
+      "baseline_answer": "J",
+      "baseline_correct": true,
+      "pda_answer": "J",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "J",
+        "J",
+        "J"
+      ]
+    },
+    {
+      "index": 13,
+      "category": "business",
+      "question_prefix": "Using the table below , find the federal income tax for Jerr...",
+      "ground_truth": "D",
+      "baseline_answer": "D",
+      "baseline_correct": true,
+      "pda_answer": "D",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "D",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "index": 14,
+      "category": "business",
+      "question_prefix": "AlforsMotors is purchasing some new European cars which are ...",
+      "ground_truth": "D",
+      "baseline_answer": "D",
+      "baseline_correct": true,
+      "pda_answer": "D",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "D",
+        "A",
+        "D"
+      ]
+    },
+    {
+      "index": 15,
+      "category": "law",
+      "question_prefix": "A company created a new brand of pies. However, a study by t...",
+      "ground_truth": "A",
+      "baseline_answer": "E",
+      "baseline_correct": false,
+      "pda_answer": "E",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "index": 16,
+      "category": "chemistry",
+      "question_prefix": "TheRydberg- Ritz equation governing the spectral lines of hy...",
+      "ground_truth": "J",
+      "baseline_answer": "J",
+      "baseline_correct": true,
+      "pda_answer": "J",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "J",
+        "J",
+        "J"
+      ]
+    },
+    {
+      "index": 17,
+      "category": "chemistry",
+      "question_prefix": "Glucose-1-phosphate, essential to the metabolism of carbohyd...",
+      "ground_truth": "A",
+      "baseline_answer": "A",
+      "baseline_correct": true,
+      "pda_answer": "A",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    {
+      "index": 18,
+      "category": "math",
+      "question_prefix": "A group of hikers climbed from Salt Flats (elevation \u221255 fee...",
+      "ground_truth": "C",
+      "baseline_answer": "C",
+      "baseline_correct": true,
+      "pda_answer": "C",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "index": 19,
+      "category": "physics",
+      "question_prefix": "The speed of sound is slightly greater on a...",
+      "ground_truth": "E",
+      "baseline_answer": "E",
+      "baseline_correct": true,
+      "pda_answer": "E",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "index": 20,
+      "category": "business",
+      "question_prefix": "Company A is currently trading at $150 per share, and earnin...",
+      "ground_truth": "A",
+      "baseline_answer": "A",
+      "baseline_correct": true,
+      "pda_answer": "A",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    {
+      "index": 21,
+      "category": "physics",
+      "question_prefix": "What is the impedance of a 1-henry inductor at angular frequ...",
+      "ground_truth": "H",
+      "baseline_answer": "B",
+      "baseline_correct": false,
+      "pda_answer": "B",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "index": 22,
+      "category": "biology",
+      "question_prefix": "In a hypothetical environment, fishes called pike-cichlids a...",
+      "ground_truth": "A",
+      "baseline_answer": "D",
+      "baseline_correct": false,
+      "pda_answer": "D",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "D",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "index": 23,
+      "category": "engineering",
+      "question_prefix": "Air entering a tube of diameter 5.08cm (2 in.) is at 1 atm. ...",
+      "ground_truth": "D",
+      "baseline_answer": "D",
+      "baseline_correct": true,
+      "pda_answer": "G",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "J",
+        "G",
+        "J"
+      ]
+    },
+    {
+      "index": 24,
+      "category": "philosophy",
+      "question_prefix": "Select the best English interpretation of the given argumen...",
+      "ground_truth": "C",
+      "baseline_answer": "C",
+      "baseline_correct": true,
+      "pda_answer": "C",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "index": 25,
+      "category": "engineering",
+      "question_prefix": "A 360\u00b0 journal bearing 3 in.long,carries a 4 in. diameter sh...",
+      "ground_truth": "J",
+      "baseline_answer": "J",
+      "baseline_correct": true,
+      "pda_answer": "D",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "G",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "index": 26,
+      "category": "physics",
+      "question_prefix": "A heavy rock and a light rock in free fall (zero air resista...",
+      "ground_truth": "F",
+      "baseline_answer": "F",
+      "baseline_correct": true,
+      "pda_answer": "F",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "F",
+        "F",
+        "F"
+      ]
+    },
+    {
+      "index": 27,
+      "category": "economics",
+      "question_prefix": "Marginal cost (MC) is equal to average variable cost (AVC) a...",
+      "ground_truth": "H",
+      "baseline_answer": "H",
+      "baseline_correct": true,
+      "pda_answer": "H",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "H",
+        "H",
+        "H"
+      ]
+    },
+    {
+      "index": 28,
+      "category": "chemistry",
+      "question_prefix": "Assume all gases are perfect unless stated otherwise. Note t...",
+      "ground_truth": "I",
+      "baseline_answer": "I",
+      "baseline_correct": true,
+      "pda_answer": "I",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "I",
+        "I",
+        "I"
+      ]
+    },
+    {
+      "index": 29,
+      "category": "economics",
+      "question_prefix": "Suppose an American firm sells a large piece of machinery to...",
+      "ground_truth": "A",
+      "baseline_answer": "A",
+      "baseline_correct": true,
+      "pda_answer": "A",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    {
+      "index": 30,
+      "category": "physics",
+      "question_prefix": "Assume the half-life of the proton is 10^33 years. How many ...",
+      "ground_truth": "G",
+      "baseline_answer": "G",
+      "baseline_correct": true,
+      "pda_answer": "G",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "G",
+        "G",
+        "A"
+      ]
+    },
+    {
+      "index": 31,
+      "category": "history",
+      "question_prefix": "This question refers to the following information.",
+      "ground_truth": "H",
+      "baseline_answer": "G",
+      "baseline_correct": false,
+      "pda_answer": "A",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "A",
+        "G",
+        "G"
+      ]
+    },
+    {
+      "index": 32,
+      "category": "business",
+      "question_prefix": "John Wilson retired at age 62 with average yearly earnings o...",
+      "ground_truth": "D",
+      "baseline_answer": "A",
+      "baseline_correct": false,
+      "pda_answer": "D",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "D",
+        "D",
+        "A"
+      ]
+    },
+    {
+      "index": 33,
+      "category": "psychology",
+      "question_prefix": "One's ability to make inferences about the behavior of a pop...",
+      "ground_truth": "D",
+      "baseline_answer": "D",
+      "baseline_correct": true,
+      "pda_answer": "D",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "D",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "index": 34,
+      "category": "engineering",
+      "question_prefix": "Air inside a chamber is heated from an initial volume and pr...",
+      "ground_truth": "B",
+      "baseline_answer": "B",
+      "baseline_correct": true,
+      "pda_answer": "B",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "B",
+        "A",
+        "B"
+      ]
+    },
+    {
+      "index": 35,
+      "category": "economics",
+      "question_prefix": "Why is it that in the United States, labor constitutes the s...",
+      "ground_truth": "I",
+      "baseline_answer": "B",
+      "baseline_correct": false,
+      "pda_answer": "B",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "E",
+        "B",
+        "I"
+      ]
+    },
+    {
+      "index": 36,
+      "category": "other",
+      "question_prefix": "A 2008 survey showed that what percentage of the world's lar...",
+      "ground_truth": "E",
+      "baseline_answer": "B",
+      "baseline_correct": false,
+      "pda_answer": "B",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "B",
+        "F",
+        "C"
+      ]
+    },
+    {
+      "index": 37,
+      "category": "history",
+      "question_prefix": "This question refers to the following information.",
+      "ground_truth": "F",
+      "baseline_answer": "D",
+      "baseline_correct": false,
+      "pda_answer": "D",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "D",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "index": 38,
+      "category": "psychology",
+      "question_prefix": "While driving to school, Elise hears about a concert ticket ...",
+      "ground_truth": "A",
+      "baseline_answer": "A",
+      "baseline_correct": true,
+      "pda_answer": "A",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    {
+      "index": 39,
+      "category": "chemistry",
+      "question_prefix": "Two narrow slits separated by $0.10 \\mathrm{~mm}$ are illumi...",
+      "ground_truth": "F",
+      "baseline_answer": "F",
+      "baseline_correct": true,
+      "pda_answer": "F",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "F",
+        "F",
+        "F"
+      ]
+    },
+    {
+      "index": 40,
+      "category": "other",
+      "question_prefix": "What is the 'security dilemma' that faces weak states?...",
+      "ground_truth": "A",
+      "baseline_answer": "A",
+      "baseline_correct": true,
+      "pda_answer": "A",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    {
+      "index": 41,
+      "category": "law",
+      "question_prefix": "A farmer owned a 40-acre tract of farmland located in a smal...",
+      "ground_truth": "H",
+      "baseline_answer": "H",
+      "baseline_correct": true,
+      "pda_answer": "H",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "H",
+        "H",
+        "H"
+      ]
+    },
+    {
+      "index": 42,
+      "category": "law",
+      "question_prefix": "A condominium development consists of two buildings, one wit...",
+      "ground_truth": "C",
+      "baseline_answer": "C",
+      "baseline_correct": true,
+      "pda_answer": "G",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "G",
+        "G",
+        "G"
+      ]
+    },
+    {
+      "index": 43,
+      "category": "health",
+      "question_prefix": "A deficiency of which vitamin has been associated with ename...",
+      "ground_truth": "A",
+      "baseline_answer": "A",
+      "baseline_correct": true,
+      "pda_answer": "F",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "F",
+        "A",
+        "A"
+      ]
+    },
+    {
+      "index": 44,
+      "category": "law",
+      "question_prefix": "An appliance store was using part of a public alley to unloa...",
+      "ground_truth": "J",
+      "baseline_answer": "E",
+      "baseline_correct": false,
+      "pda_answer": "J",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "J",
+        "J",
+        "J"
+      ]
+    },
+    {
+      "index": 45,
+      "category": "health",
+      "question_prefix": "A 25-year-old man is brought to the emergency department bec...",
+      "ground_truth": "B",
+      "baseline_answer": "B",
+      "baseline_correct": true,
+      "pda_answer": "B",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "index": 46,
+      "category": "other",
+      "question_prefix": "The dominant course for foreign policy throughout most of Am...",
+      "ground_truth": "A",
+      "baseline_answer": "A",
+      "baseline_correct": true,
+      "pda_answer": "E",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "A",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "index": 47,
+      "category": "physics",
+      "question_prefix": "What is the percentage of angular magnification when one vie...",
+      "ground_truth": "J",
+      "baseline_answer": "J",
+      "baseline_correct": true,
+      "pda_answer": "J",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "A",
+        "J",
+        "J"
+      ]
+    },
+    {
+      "index": 48,
+      "category": "chemistry",
+      "question_prefix": "An equilibrium solution of the complex ion Ag(NH_3)_2^+ cont...",
+      "ground_truth": "D",
+      "baseline_answer": "D",
+      "baseline_correct": true,
+      "pda_answer": "D",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "D",
+        "D",
+        "A"
+      ]
+    },
+    {
+      "index": 49,
+      "category": "business",
+      "question_prefix": "Good-day Tire Company wishes to find out its cost per tire. ...",
+      "ground_truth": "J",
+      "baseline_answer": "J",
+      "baseline_correct": true,
+      "pda_answer": "J",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "J",
+        "J",
+        "J"
+      ]
+    },
+    {
+      "index": 50,
+      "category": "engineering",
+      "question_prefix": "Benzene andiso-pentane are mixed at 1.5 atm. and 110\u00b0F. Dete...",
+      "ground_truth": "H",
+      "baseline_answer": "E",
+      "baseline_correct": false,
+      "pda_answer": "H",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "H",
+        "H",
+        "H"
+      ]
+    },
+    {
+      "index": 51,
+      "category": "math",
+      "question_prefix": "What number multiplied by 4 equals 36?...",
+      "ground_truth": "F",
+      "baseline_answer": "F",
+      "baseline_correct": true,
+      "pda_answer": "F",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "F",
+        "F",
+        "F"
+      ]
+    },
+    {
+      "index": 52,
+      "category": "math",
+      "question_prefix": "Let A and B be sets, f: A -> B and g: B -> A be functions su...",
+      "ground_truth": "C",
+      "baseline_answer": "C",
+      "baseline_correct": true,
+      "pda_answer": "C",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "index": 53,
+      "category": "psychology",
+      "question_prefix": "TYPE II ERROR is the failure to reject a false null hypothes...",
+      "ground_truth": "C",
+      "baseline_answer": "C",
+      "baseline_correct": true,
+      "pda_answer": "C",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "index": 54,
+      "category": "health",
+      "question_prefix": "A 27-year-old man is admitted to the hospital 45 minutes aft...",
+      "ground_truth": "A",
+      "baseline_answer": "A",
+      "baseline_correct": true,
+      "pda_answer": "A",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    {
+      "index": 55,
+      "category": "law",
+      "question_prefix": "Which State ordinarily exercises jurisdiction in respect of ...",
+      "ground_truth": "I",
+      "baseline_answer": "I",
+      "baseline_correct": true,
+      "pda_answer": "I",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "I",
+        "I",
+        "I"
+      ]
+    },
+    {
+      "index": 56,
+      "category": "physics",
+      "question_prefix": "A particle of charge $+3.00 \\times 10^{-6} \\mathrm{C}$ is $1...",
+      "ground_truth": "H",
+      "baseline_answer": "H",
+      "baseline_correct": true,
+      "pda_answer": "H",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "H",
+        "H",
+        "H"
+      ]
+    },
+    {
+      "index": 57,
+      "category": "history",
+      "question_prefix": "This question refers to the following information.",
+      "ground_truth": "F",
+      "baseline_answer": "D",
+      "baseline_correct": false,
+      "pda_answer": "G",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "D",
+        "G",
+        "D"
+      ]
+    },
+    {
+      "index": 58,
+      "category": "computer science",
+      "question_prefix": "Explain the TRAILER CARD method of stopping a computer job, ...",
+      "ground_truth": "F",
+      "baseline_answer": "F",
+      "baseline_correct": true,
+      "pda_answer": "F",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "F",
+        "F",
+        "F"
+      ]
+    },
+    {
+      "index": 59,
+      "category": "physics",
+      "question_prefix": "The magnetic field lines about a current-carrying wire form...",
+      "ground_truth": "H",
+      "baseline_answer": "H",
+      "baseline_correct": true,
+      "pda_answer": "H",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "H",
+        "H",
+        "H"
+      ]
+    },
+    {
+      "index": 60,
+      "category": "health",
+      "question_prefix": "How long can a cannula remain in situ?...",
+      "ground_truth": "A",
+      "baseline_answer": "F",
+      "baseline_correct": false,
+      "pda_answer": "F",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "A",
+        "A",
+        "F"
+      ]
+    },
+    {
+      "index": 61,
+      "category": "physics",
+      "question_prefix": "A student drops a water-filled balloon from the roof of the ...",
+      "ground_truth": "A",
+      "baseline_answer": "A",
+      "baseline_correct": true,
+      "pda_answer": "A",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    {
+      "index": 62,
+      "category": "biology",
+      "question_prefix": "Which of the following statements concerning a sarcomere of ...",
+      "ground_truth": "H",
+      "baseline_answer": "H",
+      "baseline_correct": true,
+      "pda_answer": "H",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "H",
+        "H",
+        "H"
+      ]
+    },
+    {
+      "index": 63,
+      "category": "engineering",
+      "question_prefix": "The nonlinear characteristic of a capacitor is given by q(t)...",
+      "ground_truth": "G",
+      "baseline_answer": "G",
+      "baseline_correct": true,
+      "pda_answer": "G",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "G",
+        "G",
+        "G"
+      ]
+    },
+    {
+      "index": 64,
+      "category": "law",
+      "question_prefix": "In June a computer retailer ordered 100 computers, with vari...",
+      "ground_truth": "H",
+      "baseline_answer": "J",
+      "baseline_correct": false,
+      "pda_answer": "G",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "F",
+        "G",
+        "A"
+      ]
+    },
+    {
+      "index": 65,
+      "category": "business",
+      "question_prefix": "Four competing philosophies strongly influence the role of ...",
+      "ground_truth": "E",
+      "baseline_answer": "B",
+      "baseline_correct": false,
+      "pda_answer": "B",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "index": 66,
+      "category": "philosophy",
+      "question_prefix": "Lukianoff and Haidt argue that American colleges and univer...",
+      "ground_truth": "B",
+      "baseline_answer": "A",
+      "baseline_correct": false,
+      "pda_answer": "A",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    {
+      "index": 67,
+      "category": "chemistry",
+      "question_prefix": "Of the several ways in which the supersonic transport (SST) ...",
+      "ground_truth": "G",
+      "baseline_answer": "G",
+      "baseline_correct": true,
+      "pda_answer": "G",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "G",
+        "G",
+        "G"
+      ]
+    },
+    {
+      "index": 68,
+      "category": "history",
+      "question_prefix": "This question refers to the following information.",
+      "ground_truth": "G",
+      "baseline_answer": "G",
+      "baseline_correct": true,
+      "pda_answer": "G",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "G",
+        "G",
+        "G"
+      ]
+    },
+    {
+      "index": 69,
+      "category": "law",
+      "question_prefix": "A doctor who was licensed to practice medicine in a particul...",
+      "ground_truth": "B",
+      "baseline_answer": "E",
+      "baseline_correct": false,
+      "pda_answer": "E",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "index": 70,
+      "category": "chemistry",
+      "question_prefix": "Lemon juice is very acidic, having a pH of 2.1. If we assume...",
+      "ground_truth": "A",
+      "baseline_answer": "A",
+      "baseline_correct": true,
+      "pda_answer": "A",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    {
+      "index": 71,
+      "category": "law",
+      "question_prefix": "A brick mason was hired by a builder under a written one-yea...",
+      "ground_truth": "B",
+      "baseline_answer": "E",
+      "baseline_correct": false,
+      "pda_answer": "E",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "index": 72,
+      "category": "health",
+      "question_prefix": "Picornavirus replication as a positive strand RNA virus is p...",
+      "ground_truth": "C",
+      "baseline_answer": "B",
+      "baseline_correct": false,
+      "pda_answer": "B",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "index": 73,
+      "category": "history",
+      "question_prefix": "This question refers to the following information.",
+      "ground_truth": "J",
+      "baseline_answer": "J",
+      "baseline_correct": true,
+      "pda_answer": "J",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "J",
+        "J",
+        "J"
+      ]
+    },
+    {
+      "index": 74,
+      "category": "economics",
+      "question_prefix": "What is the purpose of the National Accounts?...",
+      "ground_truth": "E",
+      "baseline_answer": "E",
+      "baseline_correct": true,
+      "pda_answer": "E",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "index": 75,
+      "category": "computer science",
+      "question_prefix": "Which of the following conditions can be expressed by a Bool...",
+      "ground_truth": "G",
+      "baseline_answer": "G",
+      "baseline_correct": true,
+      "pda_answer": "G",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "G",
+        "G",
+        "I"
+      ]
+    },
+    {
+      "index": 76,
+      "category": "health",
+      "question_prefix": "Which of the following is thought to be implicated in the de...",
+      "ground_truth": "D",
+      "baseline_answer": "D",
+      "baseline_correct": true,
+      "pda_answer": "D",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "D",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "index": 77,
+      "category": "psychology",
+      "question_prefix": "The superintendent of a large school district asks the schoo...",
+      "ground_truth": "F",
+      "baseline_answer": "F",
+      "baseline_correct": true,
+      "pda_answer": "F",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "F",
+        "F",
+        "F"
+      ]
+    },
+    {
+      "index": 78,
+      "category": "health",
+      "question_prefix": "Examination of a patient indicates that they have a medially...",
+      "ground_truth": "F",
+      "baseline_answer": "F",
+      "baseline_correct": true,
+      "pda_answer": "F",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "F",
+        "F",
+        "F"
+      ]
+    },
+    {
+      "index": 79,
+      "category": "other",
+      "question_prefix": "Which of the following is a true statement about the flow of...",
+      "ground_truth": "J",
+      "baseline_answer": "J",
+      "baseline_correct": true,
+      "pda_answer": "J",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "J",
+        "J",
+        "J"
+      ]
+    },
+    {
+      "index": 80,
+      "category": "chemistry",
+      "question_prefix": "The mean temperature of the earth's surface is $288 \\mathrm{...",
+      "ground_truth": "G",
+      "baseline_answer": "G",
+      "baseline_correct": true,
+      "pda_answer": "G",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "G",
+        "G",
+        "G"
+      ]
+    },
+    {
+      "index": 81,
+      "category": "philosophy",
+      "question_prefix": "With respect to the issue of world hunger and poverty, Arth...",
+      "ground_truth": "E",
+      "baseline_answer": "E",
+      "baseline_correct": true,
+      "pda_answer": "E",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "E",
+        "E",
+        "J"
+      ]
+    },
+    {
+      "index": 82,
+      "category": "chemistry",
+      "question_prefix": "A liquid element that is a dark-colored, nonconducting subst...",
+      "ground_truth": "C",
+      "baseline_answer": "C",
+      "baseline_correct": true,
+      "pda_answer": "C",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "index": 83,
+      "category": "engineering",
+      "question_prefix": "Two antennas, 48 km apart, have transmitting and receiving g...",
+      "ground_truth": "F",
+      "baseline_answer": "F",
+      "baseline_correct": true,
+      "pda_answer": "F",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "F",
+        "F",
+        "F"
+      ]
+    },
+    {
+      "index": 84,
+      "category": "engineering",
+      "question_prefix": "A frequency modulated wave has an angular carrier frequency\\...",
+      "ground_truth": "F",
+      "baseline_answer": "F",
+      "baseline_correct": true,
+      "pda_answer": "F",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "F",
+        "F",
+        "F"
+      ]
+    },
+    {
+      "index": 85,
+      "category": "philosophy",
+      "question_prefix": "An unborn vertebrate animal that has developed to the point...",
+      "ground_truth": "G",
+      "baseline_answer": "B",
+      "baseline_correct": false,
+      "pda_answer": "B",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "index": 86,
+      "category": "law",
+      "question_prefix": "A foreign visitor was on trial for kidnapping a small child....",
+      "ground_truth": "F",
+      "baseline_answer": "F",
+      "baseline_correct": true,
+      "pda_answer": "F",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "F",
+        "F",
+        "F"
+      ]
+    },
+    {
+      "index": 87,
+      "category": "physics",
+      "question_prefix": "Compute the mean molecular speed v in the heavy gas radon (R...",
+      "ground_truth": "B",
+      "baseline_answer": "B",
+      "baseline_correct": true,
+      "pda_answer": "B",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "index": 88,
+      "category": "computer science",
+      "question_prefix": "A cascade of $n$ identical independent binary symmetric chan...",
+      "ground_truth": "B",
+      "baseline_answer": "B",
+      "baseline_correct": true,
+      "pda_answer": "B",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "index": 89,
+      "category": "biology",
+      "question_prefix": "What was the prevailing notion prior to the time of Lyell an...",
+      "ground_truth": "D",
+      "baseline_answer": "D",
+      "baseline_correct": true,
+      "pda_answer": "D",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "D",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "index": 90,
+      "category": "math",
+      "question_prefix": "What is the minimum number of people needed in a room to gua...",
+      "ground_truth": "A",
+      "baseline_answer": "A",
+      "baseline_correct": true,
+      "pda_answer": "A",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    {
+      "index": 91,
+      "category": "engineering",
+      "question_prefix": "Consider an example of forced convection within a pipe. The ...",
+      "ground_truth": "B",
+      "baseline_answer": "B",
+      "baseline_correct": true,
+      "pda_answer": "H",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "H",
+        "H",
+        "H"
+      ]
+    },
+    {
+      "index": 92,
+      "category": "chemistry",
+      "question_prefix": "Consider the formation of an ionic molecule, AB, by the dona...",
+      "ground_truth": "J",
+      "baseline_answer": "J",
+      "baseline_correct": true,
+      "pda_answer": "J",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "J",
+        "J",
+        "J"
+      ]
+    },
+    {
+      "index": 93,
+      "category": "psychology",
+      "question_prefix": "What is the distinction between an aptitude test and an achi...",
+      "ground_truth": "D",
+      "baseline_answer": "D",
+      "baseline_correct": true,
+      "pda_answer": "D",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "D",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "index": 94,
+      "category": "math",
+      "question_prefix": "Does the following series $\\sum_{i=0}^{\\infty} \\frac{n!}{n^2...",
+      "ground_truth": "H",
+      "baseline_answer": "D",
+      "baseline_correct": false,
+      "pda_answer": "D",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "D",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "index": 95,
+      "category": "health",
+      "question_prefix": "Which vitamin is required for calcium absorption from the sm...",
+      "ground_truth": "D",
+      "baseline_answer": "D",
+      "baseline_correct": true,
+      "pda_answer": "D",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "D",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "index": 96,
+      "category": "chemistry",
+      "question_prefix": "At 393.7\u00b0C, the second-rate constant for the decomposition o...",
+      "ground_truth": "H",
+      "baseline_answer": "D",
+      "baseline_correct": false,
+      "pda_answer": "H",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "J",
+        "A",
+        null
+      ]
+    },
+    {
+      "index": 97,
+      "category": "computer science",
+      "question_prefix": "Buffer-overflow may remain as a bug in apps if __________ ar...",
+      "ground_truth": "G",
+      "baseline_answer": "G",
+      "baseline_correct": true,
+      "pda_answer": "G",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "G",
+        "G",
+        "G"
+      ]
+    },
+    {
+      "index": 98,
+      "category": "engineering",
+      "question_prefix": "For the zero-memory information source described by the tabl...",
+      "ground_truth": "A",
+      "baseline_answer": "A",
+      "baseline_correct": true,
+      "pda_answer": "A",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    {
+      "index": 99,
+      "category": "physics",
+      "question_prefix": "The distance of your image behind a plane mirror is equal to...",
+      "ground_truth": "B",
+      "baseline_answer": "B",
+      "baseline_correct": true,
+      "pda_answer": "B",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "index": 100,
+      "category": "chemistry",
+      "question_prefix": "A proposed mechanism for a reaction is as follows: NO2 + F2 ...",
+      "ground_truth": "B",
+      "baseline_answer": "B",
+      "baseline_correct": true,
+      "pda_answer": "B",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "index": 101,
+      "category": "engineering",
+      "question_prefix": "Ethane reacts with astoichiometricamount of air by the follo...",
+      "ground_truth": "J",
+      "baseline_answer": "C",
+      "baseline_correct": false,
+      "pda_answer": "G",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "G",
+        "J",
+        "G"
+      ]
+    },
+    {
+      "index": 102,
+      "category": "other",
+      "question_prefix": "Which of the following is a renewable energy source?...",
+      "ground_truth": "B",
+      "baseline_answer": "B",
+      "baseline_correct": true,
+      "pda_answer": "B",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "index": 103,
+      "category": "law",
+      "question_prefix": "In 1888, a landowner owned a dairy farm. The landowner conve...",
+      "ground_truth": "H",
+      "baseline_answer": "F",
+      "baseline_correct": false,
+      "pda_answer": "B",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "B",
+        "F",
+        "J"
+      ]
+    },
+    {
+      "index": 104,
+      "category": "chemistry",
+      "question_prefix": "Under what conditions will a pure sample of an ideal gas not...",
+      "ground_truth": "B",
+      "baseline_answer": "A",
+      "baseline_correct": false,
+      "pda_answer": "B",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "index": 105,
+      "category": "business",
+      "question_prefix": "Pauline Key earns $3.50 per hour. She is paid time and a hal...",
+      "ground_truth": "F",
+      "baseline_answer": "F",
+      "baseline_correct": true,
+      "pda_answer": "F",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "F",
+        "F",
+        "F"
+      ]
+    },
+    {
+      "index": 106,
+      "category": "other",
+      "question_prefix": "Different less developed countries have different levels of ...",
+      "ground_truth": "I",
+      "baseline_answer": "I",
+      "baseline_correct": true,
+      "pda_answer": "I",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "C",
+        "I",
+        "I"
+      ]
+    },
+    {
+      "index": 107,
+      "category": "health",
+      "question_prefix": "Identity refers to one's...",
+      "ground_truth": "E",
+      "baseline_answer": "E",
+      "baseline_correct": true,
+      "pda_answer": "E",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "index": 108,
+      "category": "chemistry",
+      "question_prefix": "A swimmer enters a gloomier world (in one sense) on diving t...",
+      "ground_truth": "I",
+      "baseline_answer": "D",
+      "baseline_correct": false,
+      "pda_answer": "D",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "D",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "index": 109,
+      "category": "law",
+      "question_prefix": "A new gang member, hoping to impress the gang's leader, poin...",
+      "ground_truth": "I",
+      "baseline_answer": "F",
+      "baseline_correct": false,
+      "pda_answer": "D",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "F",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "index": 110,
+      "category": "chemistry",
+      "question_prefix": "What is the explanation for the following trends inlattice e...",
+      "ground_truth": "F",
+      "baseline_answer": "F",
+      "baseline_correct": true,
+      "pda_answer": "F",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "F",
+        "F",
+        "F"
+      ]
+    },
+    {
+      "index": 111,
+      "category": "physics",
+      "question_prefix": "At 20\u00b0C, a pipe open at both ends resonates at a frequency o...",
+      "ground_truth": "A",
+      "baseline_answer": "A",
+      "baseline_correct": true,
+      "pda_answer": "A",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    {
+      "index": 112,
+      "category": "engineering",
+      "question_prefix": "A liquid-propellant rocket uses 22 lb of fuel per second and...",
+      "ground_truth": "F",
+      "baseline_answer": "F",
+      "baseline_correct": true,
+      "pda_answer": "F",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "F",
+        "F",
+        "F"
+      ]
+    },
+    {
+      "index": 113,
+      "category": "other",
+      "question_prefix": "Walt Disney, Sony and Time Warner are examples of:...",
+      "ground_truth": "F",
+      "baseline_answer": "H",
+      "baseline_correct": false,
+      "pda_answer": "H",
+      "pda_correct": false,
+      "pda_worker_answers": [
+        "H",
+        "H",
+        "H"
+      ]
+    },
+    {
+      "index": 114,
+      "category": "chemistry",
+      "question_prefix": "In a chemical reaction requiring two atoms of phosphorus for...",
+      "ground_truth": "C",
+      "baseline_answer": "C",
+      "baseline_correct": true,
+      "pda_answer": "C",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "index": 115,
+      "category": "philosophy",
+      "question_prefix": "Select the best translation into predicate logic: Abdul and ...",
+      "ground_truth": "A",
+      "baseline_answer": "A",
+      "baseline_correct": true,
+      "pda_answer": "A",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    {
+      "index": 116,
+      "category": "math",
+      "question_prefix": "Which pair of expressions below are equivalent?...",
+      "ground_truth": "D",
+      "baseline_answer": "D",
+      "baseline_correct": true,
+      "pda_answer": "D",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "D",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "index": 117,
+      "category": "health",
+      "question_prefix": "Walking down a street late at night, an adult male pedestria...",
+      "ground_truth": "B",
+      "baseline_answer": "B",
+      "baseline_correct": true,
+      "pda_answer": "B",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "index": 118,
+      "category": "computer science",
+      "question_prefix": "In a CSMA/CD network with a data rate of 10 Mbps, the minimu...",
+      "ground_truth": "E",
+      "baseline_answer": "E",
+      "baseline_correct": true,
+      "pda_answer": "E",
+      "pda_correct": true,
+      "pda_worker_answers": [
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "index": 119,
+      "category": "math",
+      "question_prefix": "Two dice are rolled simultaneously. If both dice show 6, the...",
+      "ground_truth": "A",
+      "baseline_answer": "A",
+      "baseline_correct": true,
+      "pda_answer": null,
+      "pda_correct": false,
+      "pda_worker_answers": []
+    }
+  ]
+}
