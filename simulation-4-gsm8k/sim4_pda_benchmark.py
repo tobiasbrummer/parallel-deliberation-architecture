@@ -1,10 +1,14 @@
 """
 PDA Simulation 4: Prompt-level PDA on GSM8K Benchmark
-Compares baseline (single pass) vs PDA (3 workers + merge) using Qwen3-8B via OpenRouter.
+Compares baseline (single pass) vs PDA (3 workers + merge) using Qwen3-8B.
+
+Backend is pluggable via PDA_BACKEND env var (openrouter | local_hf).
+See model_backend.py for details.
 
 Usage:
     python sim4_pda_benchmark.py --n_questions 10 --dry_run  # test with 10 questions
     python sim4_pda_benchmark.py --n_questions 200           # actual run
+    PDA_BACKEND=local_hf python sim4_pda_benchmark.py --n_questions 20  # local model
 """
 
 import argparse
@@ -13,15 +17,10 @@ import re
 import time
 import os
 from pathlib import Path
-from openai import OpenAI
 from datasets import load_dataset
 
-# --- Config ---
-MODEL = "qwen/qwen3-8b"
-API_KEY = Path(os.path.expanduser("~/.config/api-keys/openrouter")).read_text().strip()
-BASE_URL = "https://openrouter.ai/api/v1"
-
-client = OpenAI(api_key=API_KEY, base_url=BASE_URL)
+# Pluggable backend (OpenRouter API / local HF) -- see model_backend.py
+from model_backend import call_model, describe_backend, BACKEND
 
 # --- Prompts ---
 BASELINE_SYSTEM = """You are a math problem solver. Solve the problem step by step, then give your final numerical answer on the last line in the format: #### <number>"""
@@ -38,25 +37,6 @@ PDA_MERGE_SYSTEM = """You are a math answer synthesizer. You will see 3 differen
 - Do NOT just pick the majority -- evaluate the actual math.
 
 Give your final answer on the last line in the format: #### <number>"""
-
-
-def call_model(system_prompt: str, user_prompt: str, temperature: float = 0.7) -> str:
-    """Call the model via OpenRouter."""
-    try:
-        response = client.chat.completions.create(
-            model=MODEL,
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_prompt},
-            ],
-            temperature=temperature,
-            max_tokens=1024,
-            extra_body={"transforms": ["middle-out"]},  # OpenRouter compression
-        )
-        return response.choices[0].message.content
-    except Exception as e:
-        print(f"  API error: {e}")
-        return ""
 
 
 def extract_answer(text: str) -> float | None:
@@ -217,7 +197,7 @@ def main():
     with open(output_path, "w") as f:
         json.dump({
             "config": {
-                "model": MODEL,
+                "backend": describe_backend(),
                 "n_questions": len(questions),
                 "offset": args.offset,
                 "n_workers": 3,

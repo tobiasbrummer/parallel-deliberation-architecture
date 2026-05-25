@@ -1,0 +1,5 @@
+# Core deps for Sim 4 / Sim 4b prompt-PDA benchmarks.
+# Default backend is OpenRouter (cheap, fast). For local-GPU inference,
+# also install requirements-local.txt.
+openai>=1.0.0
+datasets>=2.14.0

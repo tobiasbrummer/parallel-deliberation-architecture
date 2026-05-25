@@ -1,6 +1,9 @@
 """
 PDA Simulation 4b: Prompt-level PDA on MMLU-Pro Benchmark
 Multiple choice with 10 options (A-J). Baseline ~66% for Qwen3-8B.
+
+Backend is pluggable via PDA_BACKEND env var (openrouter | local_hf).
+See model_backend.py for details.
 """
 
 import argparse
@@ -10,12 +13,10 @@ import time
 import random
 import os
 from pathlib import Path
-from openai import OpenAI
 from datasets import load_dataset
 
-MODEL = "qwen/qwen3-8b"
-API_KEY = Path(os.path.expanduser("~/.config/api-keys/openrouter")).read_text().strip()
-client = OpenAI(api_key=API_KEY, base_url="https://openrouter.ai/api/v1")
+# Pluggable backend (OpenRouter API / local HF) -- see model_backend.py
+from model_backend import call_model, describe_backend, BACKEND
 
 BASELINE_SYSTEM = """You are an expert answering multiple-choice questions. Think step by step, then give your final answer as a single letter (A-J) on the last line in the format: Answer: X"""
 
@@ -31,19 +32,6 @@ PDA_MERGE_SYSTEM = """You are an answer synthesizer for a multiple-choice questi
 - Pay attention to which expert caught errors the others missed.
 
 Give your final answer as: Answer: X"""
-
-
-def call_model(system: str, user: str, temperature: float = 0.7) -> str:
-    try:
-        r = client.chat.completions.create(
-            model=MODEL,
-            messages=[{"role": "system", "content": system}, {"role": "user", "content": user}],
-            temperature=temperature, max_tokens=1024,
-        )
-        return r.choices[0].message.content or ""
-    except Exception as e:
-        print(f"  API error: {e}")
-        return ""
 
 
 def format_question(item) -> str:
@@ -195,7 +183,7 @@ def main():
 
     with open(Path(__file__).parent / args.output, "w") as f:
         json.dump({
-            "config": {"model": MODEL, "n": len(questions), "seed": args.seed, "benchmark": "MMLU-Pro"},
+            "config": {"backend": describe_backend(), "n": len(questions), "seed": args.seed, "benchmark": "MMLU-Pro"},
             "summary": {
                 "baseline": b_correct/len(questions),
                 "pda": p_correct/len(questions),

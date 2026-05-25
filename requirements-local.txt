@@ -1,0 +1,6 @@
+# Additional deps for PDA_BACKEND=local_hf
+# (lets you reproduce Sim 4 / Sim 4b on a local GPU with no API budget).
+torch>=2.1.0
+transformers>=4.40.0
+accelerate>=0.27.0
+sentencepiece>=0.2.0
